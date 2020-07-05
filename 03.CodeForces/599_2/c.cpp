@@ -1,0 +1,68 @@
+#include<iostream>
+#include<cstdio>
+#include<cstdlib>
+#include<cstring>
+#include<climits>
+#include<cmath>
+#include<ctime>
+#include<vector>
+#include<queue>
+#include<stack>
+#include<list>
+#include<set>
+#include<map>
+#include<utility>
+#include<algorithm>
+using namespace std;
+
+#define FOR(i,a,b) for(register int i=(a);i<(b);++i)
+#define FORR(i,a,b) for(register int i=(a);i<=(b);++i)
+#define ROR(i,a,b) for(register int i=(a);i>=(b);--i)
+#define RORR(i,a,b) for(register int i=(a);i>(b);--i)
+#define PQ priority_queue
+#define VR vector
+#define MST(a,b) memset(a,b,sizeof(a))
+#define SIZ(a) sizeof(a)
+#define CE() clear()
+#define FGETS(s) fgets(s,sizeof(s),stdin)
+#define RE register
+#define FIN(s) freopen(s,"r",stdin)
+#define FOUT(s) freopen(s,"w",stdout)
+#define ALL(x) x.begin(),x.end()
+#define INS(x) inserter(x,x.begin())
+#define FI first
+#define SE second
+typedef long long LL;
+typedef long long unsigned LLU;
+
+LL n;
+VR<LL> v;
+
+void div(LL n){
+  LL r = sqrt(n + 0.5);
+  for(LL i=2;i<=r;++i) if(n%i==0){
+    v.push_back(i);
+    while(n%i==0) n/=i;
+    if(n==1) break;
+  }
+  if(n>1) v.push_back(n);
+}
+
+int main(void){
+  scanf("%lld",&n);
+
+  div(n);
+#ifdef DEBUG
+  for(LL x : v) printf("%d ",x);
+  putchar('\n');
+#endif
+
+  if(v.size()==0)
+    printf("%lld\n",n);
+  else if(v.size()==1)
+    printf("%lld\n",v[0]);
+  else
+    printf("1\n");
+
+  return 0;
+}

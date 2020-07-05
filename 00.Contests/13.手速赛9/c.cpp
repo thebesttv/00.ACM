@@ -1,0 +1,58 @@
+#include<iostream>
+#include<cstdio>
+#include<cstdlib>
+#include<cstring>
+#include<climits>
+#include<cmath>
+#include<ctime>
+#include<vector>
+#include<queue>
+#include<stack>
+#include<list>
+#include<set>
+#include<map>
+#include<utility>
+#include<algorithm>
+using namespace std;
+
+#define FOR(i,a,b) for(register int i=(a);i<(b);++i)
+#define FORR(i,a,b) for(register int i=(a);i<=(b);++i)
+#define ROR(i,a,b) for(register int i=(a);i>=(b);--i)
+#define RORR(i,a,b) for(register int i=(a);i>(b);--i)
+#define PQ priority_queue
+#define VR vector
+#define MST(a,b) memset(a,b,sizeof(a))
+#define FGETS(s) fgets(s,sizeof(s),stdin)
+#define ALL(x) x.begin(),x.end()
+#define INS(x) inserter(x,x.begin())
+#define FI first
+#define SE second
+typedef long long LL;
+typedef long long unsigned LLU;
+typedef pair<int,int> pii;
+
+LL n, ans;
+VR<LL> v;
+
+int main(void){
+  for(int len=2;len<=12;len+=2){
+    FOR(st,0,(1<<len)){
+      int cnt = 0;
+      FOR(i,0,len) if(st&(1<<i))
+        ++cnt;
+      if(cnt*2 != len) continue;
+
+      LL n = 0;
+      FOR(i,0,len){
+        n = n*10 + ( (st&(1<<i)) ? 4 : 7);
+      }
+      v.push_back(n);
+    }
+  }
+  sort(ALL(v));
+  cin >> n;
+  auto it = lower_bound(ALL(v), n);
+  cout << *it << endl;
+
+  return 0;
+}

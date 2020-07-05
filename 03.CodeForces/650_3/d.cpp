@@ -1,0 +1,78 @@
+#include<iostream>
+#include<cstdio>
+#include<cstdlib>
+#include<cstring>
+#include<climits>
+#include<cmath>
+#include<ctime>
+#include<vector>
+#include<queue>
+#include<stack>
+#include<list>
+#include<set>
+#include<map>
+#include<utility>
+#include<algorithm>
+using namespace std;
+
+#define FOR(i,a,b) for(register int i=(a);i<(b);++i)
+#define FORR(i,a,b) for(register int i=(a);i<=(b);++i)
+#define ROR(i,a,b) for(register int i=(a);i>=(b);--i)
+#define RORR(i,a,b) for(register int i=(a);i>(b);--i)
+#define PQ priority_queue
+#define VR vector
+#define MST(a,b) memset(a,b,sizeof(a))
+#define FGETS(s) fgets(s,sizeof(s),stdin)
+#define ALL(x) x.begin(),x.end()
+#define INS(x) inserter(x,x.begin())
+#define FI first
+#define SE second
+typedef long long LL;
+typedef long long unsigned LLU;
+typedef pair<int,int> pii;
+
+const int MAX = 60;
+int n,m,b[MAX],cnt[30]; char s[MAX],ans[MAX];
+VR<int> G[30];
+
+int dis(int x, VR<int> &v){
+  int s = 0;
+  for(int y : v) s += abs(x-y);
+  return s;
+}
+
+int main(void){
+  int T; scanf("%d",&T);
+  while(T--){
+    FOR(i,0,30) cnt[i]=0, G[i].clear();
+    scanf("%s",s); n = strlen(s);
+    FOR(i,0,n) ++cnt[s[i]-'a'];
+
+    scanf("%d",&m);
+    FORR(i,1,m) scanf("%d",&b[i]);
+
+    VR<int> v; int lev = 0;
+    while(lev < 26){
+      VR<int> nv;
+      FORR(i,1,m) if(b[i]!=-1 && dis(i,v)==b[i]){
+        b[i]=-1;
+        nv.push_back(i);
+        G[lev].push_back(i);
+      }
+      if(nv.size()==0) break;
+
+      for(int x : nv) v.push_back(x);
+      lev++;
+    }
+
+    int ch = 25; MST(ans,0);
+    FOR(i,0,lev){
+      while(cnt[ch] < G[i].size()) --ch;
+      for(int x : G[i]) ans[x] = ch+'a';
+      --ch;
+    }
+    printf("%s\n",ans+1);
+  }
+
+  return 0;
+}

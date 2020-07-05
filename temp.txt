@@ -1,0 +1,20 @@
+Vijos 1082, POJ 1724 有限制的最短路
+
+负环 Vijos 1053
+注意自环且负的情况
+建立超级源点 XD
+
+次短路：
+注意是否允许backtrack，即同一条边走两次
+注意最短路&次短路长度能否等长
+1. 允许 backtrack，不等长
+	Dij 记录 d[], d2[]
+POJ 3255
+https://blog.csdn.net/luomingjun12315/article/details/51284224
+https://blog.csdn.net/u014800748/article/details/44923679
+
+2. 不允许 backtrack，等长
+Vijos 1155
+一遍Dij，记录最短路路径，对路径上的每条边，删除后再跑Dij
+
+

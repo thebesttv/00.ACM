@@ -1,0 +1,5 @@
+w, h, d = input().split()
+w, h, d = int(w), int(h), int(d)
+w = max(0, w-2*d)
+h = max(0, h-2*d)
+print(w*h)
