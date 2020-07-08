@@ -1,2 +1,3 @@
 #!/bin/bash
+# first grep: prevent filename contamination (filter out obsolete name like 1024_iii.c)
 head $(find -name '*.cpp') -n1 | grep '// Tag: ' -B1 | grep $1 -B1
