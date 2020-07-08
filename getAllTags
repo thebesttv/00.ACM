@@ -1,0 +1,4 @@
+#!/bin/bash
+
+head $(find -name '*.cpp') -n1 | grep '// Tag: ' |
+awk '{ for(i=3;i<=NF;++i) print $i }' | sort | uniq -c
