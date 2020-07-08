@@ -1,5 +1,6 @@
 // Tag: iiii 欧拉回路 并查集判连通
 // 用并查集判断连通性
+// 欧拉回路：度的要求 + **图连通**
 #include<iostream>
 #include<cstdio>
 #include<cstdlib>
@@ -33,7 +34,7 @@ typedef long long LL;
 typedef long long unsigned LLU;
 typedef pair<int,int> pii;
 
-const int MAX =1020;
+const int MAX = 1020;
 int n,in[128],out[128]; char s[MAX];
 
 int p[128];
