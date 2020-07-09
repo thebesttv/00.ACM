@@ -1,5 +1,6 @@
-// Tag: 3D BFS floodfill 正难则反 iii
+// Tag: 3D BFS floodfill 正难则反 离散化 iii
 // 类似 [UVa1103 象形文字]，对空气bfs，求出体积&表面积
+// 离散化后区间左闭右开
 // Link: [UVa 1103]
 #include<iostream>
 #include<cstdio>
