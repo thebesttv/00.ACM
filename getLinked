@@ -1,0 +1,8 @@
+#!/bin/bash
+# first grep: prevent filename contamination (filter out obsolete name like 1024_iii.c)
+
+case $# in
+  0) echo Usage: getLinked file; exit 1 ;;
+esac
+
+echo $1 links to $(grep '// Link: ' "$1" | awk ' { for (i=3;i<=NF;++i) printf "%s ", $i } ')
