@@ -1,5 +1,6 @@
-// Tag: fun i
+// Tag: fun floodfill i
 // 二维平面，注意四个边界都要扩展
+// Link: [UVa 12171]
 #include<iostream>
 #include<cstdio>
 #include<cstdlib>
