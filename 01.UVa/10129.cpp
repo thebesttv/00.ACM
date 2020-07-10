@@ -1,6 +1,8 @@
-// Tag: iiii 欧拉回路 并查集判连通
+// Tag: iiii 欧拉回路 并查集判连通 点边互化
+// Link: [UVa 1572]
 // 用并查集判断连通性
 // 欧拉回路：度的要求 + **图连通**
+// 把字母看作点，单词看作有向边
 #include<iostream>
 #include<cstdio>
 #include<cstdlib>
