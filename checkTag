@@ -1,0 +1,4 @@
+#!/bin/bash
+
+head $(find -name '*.cpp') -n1 | grep -B1 '// Tag: ' | grep -B1 -E '^// Tag: $' |
+awk ' (NR - 1)%3 == 0 { print $0 }' # filter out file name
