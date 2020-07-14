@@ -1,4 +1,5 @@
-// Tag: 树 边读入边计算 fun 可出题
+// Tag: quadtree 边读入边计算 fun 可出题
+// Link: [UVa 297]
 #include<iostream>
 #include<cstdio>
 #include<cstdlib>
