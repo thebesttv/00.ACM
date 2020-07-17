@@ -1,0 +1,22 @@
+#!/bin/bash
+
+echo "compiling..."
+g++ input.c -o input.out -O2
+g++ test.c -o test.out -O2
+echo "done!"
+
+echo "start"
+while true; do
+  ./input.out 100 100 0.2 > "in"
+  /usr/bin/time -f "  ori:  %e" python3 ori.py < "in" > output.ori
+  /usr/bin/time -f "  test: %e" ./test.out < "in" > output.test
+
+  if diff output.ori output.test; then
+    echo AC
+  else
+    echo WA
+    read p
+  fi
+
+  sleep 1
+done
