@@ -1,4 +1,4 @@
-// Tag: 
+// Tag: KMP
 #include<iostream>
 #include<cstdio>
 #include<cstdlib>
