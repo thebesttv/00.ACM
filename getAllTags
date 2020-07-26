@@ -1,4 +1,5 @@
 #!/bin/bash
 
-head $(find -name '*.cpp') -n1 | grep '// Tag: ' |
-awk '{ for(i=3;i<=NF;++i) print $i }' | sort | uniq -c
+head $(find -name '*.cpp' -or -name '*.py') -n1 |       # get all .cpp or .py files
+grep -e '// Tag: ' -e '# Tag: ' |                       # .py: '# Tag: ', .cpp: '// Tag: '
+awk '{ for(i=3;i<=NF;++i) print $i }' | sort | uniq -c  # sort and unique

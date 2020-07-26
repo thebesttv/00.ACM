@@ -2,8 +2,10 @@
 # first grep: prevent filename contamination (filter out obsolete name like 1024_iii.c)
 
 case $# in
-  0) pattern='// Tag: ' ;;
-  *) pattern=$*         ;;
+  0) pattern=' Tag: ' ;;  # applies to .py tag as well
+  *) pattern=$*       ;;
 esac
 
-head $(find -name '*.cpp') -n1 | grep -B1 '// Tag: ' | grep -B1 "$pattern"
+head $(find -name '*.cpp' -or -name '*.py') -n1 |       # get all .cpp or .py files
+grep -e '// Tag: ' -e '# Tag: ' -B1 |                   # .py: '# Tag: ', .cpp: '// Tag: '
+grep -B1 "$pattern"                                     # filter out pattern

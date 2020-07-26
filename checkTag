@@ -1,4 +1,6 @@
 #!/bin/bash
 
-head $(find -name '*.cpp') -n1 | grep -B1 '// Tag: ' | grep -B1 -E '^// Tag: $' |
+head $(find -name '*.cpp' -or -name '*.py') -n1 |
+grep -e '// Tag: ' -e '# Tag: ' -B1 |
+egrep -B1 -e '^// Tag: $' -e '^# Tag: $' |
 awk ' (NR - 1)%3 == 0 { print $0 }' # filter out file name
