@@ -3,5 +3,8 @@ out
 stdout
 input.c
 a.out
+input.out
 ori.c
+ori.out
 test.c
+test.out
