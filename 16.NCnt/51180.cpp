@@ -1,4 +1,15 @@
 // Tag: 树型DP 换根
+/*
+   换根时注意特判根节点变成叶子的情况
+
+   1
+   5
+   2 1 10
+   2 3 10
+   2 4 10
+   2 5 10
+*/
+
 #include<iostream>
 #include<cstdio>
 #include<cstdlib>
@@ -51,6 +62,12 @@ LL dfs1(int u, int fa){
 }
 
 void dfs2(int u, int fa){
+  if(u == 1 && G[1].size()==1){  // 换根后，1变为叶子
+    for(Edge &e : G[u]) if(e.v!=fa){
+      g[e.v] = e.w; dfs2(e.v, u);
+    }
+    return;
+  }
   for(Edge &e : G[u]) if(e.v!=fa){
     g[e.v] = min((LL)e.w, f[u] - min((LL)e.w, f[e.v]) + g[u]);
     dfs2(e.v, u);
