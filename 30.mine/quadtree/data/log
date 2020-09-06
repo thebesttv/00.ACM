@@ -1,0 +1,280 @@
+generated data set 1
+generated data set 2
+generated data set 3
+generated data set 4
+generated data set 5
+generated data set 6
+generated data set 7
+generated data set 8
+generated data set 9
+generated data set 10
+generated data set 11
+generated data set 12
+generated data set 13
+generated data set 14
+generated data set 15
+generated data set 16
+generated data set 17
+generated data set 18
+generated data set 19
+generated data set 20
+testing data set 1
+  add: 50037
+  remove: 9924
+  query: 40039
+
+real	0m7.796s
+user	0m7.779s
+sys	0m0.016s
+
+real	0m0.646s
+user	0m0.638s
+sys	0m0.008s
+{"status":"0","timeUsed:":"650","memoryUsed:":"42148"}
+testing data set 2
+  add: 49811
+  remove: 10017
+  query: 40172
+
+real	0m7.675s
+user	0m7.547s
+sys	0m0.016s
+
+real	0m0.676s
+user	0m0.655s
+sys	0m0.012s
+{"status":"0","timeUsed:":"663","memoryUsed:":"42204"}
+testing data set 3
+  add: 50305
+  remove: 9880
+  query: 39815
+
+real	0m7.832s
+user	0m7.811s
+sys	0m0.020s
+
+real	0m0.679s
+user	0m0.675s
+sys	0m0.004s
+{"status":"0","timeUsed:":"684","memoryUsed:":"42208"}
+testing data set 4
+  add: 50231
+  remove: 9924
+  query: 39845
+
+real	0m7.873s
+user	0m7.867s
+sys	0m0.004s
+
+real	0m0.666s
+user	0m0.649s
+sys	0m0.016s
+{"status":"0","timeUsed:":"665","memoryUsed:":"42084"}
+testing data set 5
+  add: 50034
+  remove: 10072
+  query: 39894
+
+real	0m7.818s
+user	0m7.801s
+sys	0m0.016s
+
+real	0m0.675s
+user	0m0.650s
+sys	0m0.024s
+{"status":"0","timeUsed:":"666","memoryUsed:":"42100"}
+testing data set 6
+  add: 50297
+  remove: 9920
+  query: 39783
+
+real	0m7.881s
+user	0m7.865s
+sys	0m0.012s
+
+real	0m0.668s
+user	0m0.648s
+sys	0m0.020s
+{"status":"0","timeUsed:":"675","memoryUsed:":"42228"}
+testing data set 7
+  add: 49907
+  remove: 9897
+  query: 40196
+
+real	0m7.750s
+user	0m7.737s
+sys	0m0.012s
+
+real	0m0.667s
+user	0m0.654s
+sys	0m0.012s
+{"status":"0","timeUsed:":"669","memoryUsed:":"42088"}
+testing data set 8
+  add: 50000
+  remove: 0
+  query: 50000
+
+real	0m20.355s
+user	0m20.340s
+sys	0m0.012s
+
+real	0m0.135s
+user	0m0.121s
+sys	0m0.012s
+{"status":"0","timeUsed:":"130","memoryUsed:":"42380"}
+testing data set 9
+  add: 50000
+  remove: 0
+  query: 50000
+
+real	0m20.818s
+user	0m20.807s
+sys	0m0.008s
+
+real	0m0.130s
+user	0m0.120s
+sys	0m0.008s
+{"status":"0","timeUsed:":"132","memoryUsed:":"42344"}
+testing data set 10
+  add: 50000
+  remove: 0
+  query: 50000
+
+real	0m20.486s
+user	0m20.314s
+sys	0m0.032s
+
+real	0m0.131s
+user	0m0.118s
+sys	0m0.012s
+{"status":"0","timeUsed:":"135","memoryUsed:":"42372"}
+testing data set 11
+  add: 49980
+  remove: 20
+  query: 50000
+
+real	0m8.546s
+user	0m8.532s
+sys	0m0.008s
+
+real	0m0.128s
+user	0m0.113s
+sys	0m0.013s
+{"status":"0","timeUsed:":"125","memoryUsed:":"42376"}
+testing data set 12
+  add: 49980
+  remove: 20
+  query: 50000
+
+real	0m8.238s
+user	0m8.226s
+sys	0m0.008s
+
+real	0m0.125s
+user	0m0.120s
+sys	0m0.004s
+{"status":"0","timeUsed:":"121","memoryUsed:":"42360"}
+testing data set 13
+  add: 49980
+  remove: 20
+  query: 50000
+
+real	0m8.350s
+user	0m8.255s
+sys	0m0.016s
+
+real	0m0.124s
+user	0m0.120s
+sys	0m0.004s
+{"status":"0","timeUsed:":"121","memoryUsed:":"42408"}
+testing data set 14
+  add: 88376
+  remove: 0
+  query: 11624
+
+real	0m1.095s
+user	0m1.078s
+sys	0m0.000s
+
+real	0m0.159s
+user	0m0.151s
+sys	0m0.008s
+{"status":"0","timeUsed:":"164","memoryUsed:":"43276"}
+testing data set 15
+  add: 19954
+  remove: 1031
+  query: 79015
+
+real	0m13.928s
+user	0m13.911s
+sys	0m0.016s
+
+real	0m0.890s
+user	0m0.881s
+sys	0m0.008s
+{"status":"0","timeUsed:":"843","memoryUsed:":"41592"}
+testing data set 16
+  add: 19954
+  remove: 1031
+  query: 79015
+
+real	0m16.973s
+user	0m16.963s
+sys	0m0.004s
+
+real	0m0.792s
+user	0m0.783s
+sys	0m0.008s
+{"status":"0","timeUsed:":"822","memoryUsed:":"41640"}
+testing data set 17
+  add: 19954
+  remove: 1031
+  query: 79015
+
+real	0m28.437s
+user	0m28.408s
+sys	0m0.024s
+
+real	0m0.953s
+user	0m0.933s
+sys	0m0.020s
+{"status":"0","timeUsed:":"930","memoryUsed:":"41668"}
+testing data set 18
+  add: 19954
+  remove: 1031
+  query: 79015
+
+real	0m27.312s
+user	0m27.237s
+sys	0m0.044s
+
+real	0m0.951s
+user	0m0.927s
+sys	0m0.024s
+{"status":"0","timeUsed:":"925","memoryUsed:":"41552"}
+testing data set 19
+  add: 39943
+  remove: 39892
+  query: 20165
+
+real	0m1.171s
+user	0m1.163s
+sys	0m0.008s
+
+real	0m0.123s
+user	0m0.099s
+sys	0m0.024s
+{"status":"0","timeUsed:":"116","memoryUsed:":"41100"}
+testing data set 20
+  add: 39943
+  remove: 39892
+  query: 20165
+
+real	0m1.193s
+user	0m1.184s
+sys	0m0.008s
+
+real	0m0.127s
+user	0m0.103s
+sys	0m0.024s
+{"status":"0","timeUsed:":"110","memoryUsed:":"41144"}

@@ -33,32 +33,22 @@ typedef long long unsigned LLU;
 typedef pair<int,int> pii;
 
 const int MAX = 2e5 + 20;
-const int RNG = 1e9;
-const int CAP = 10;
+const int RNG = 1e9;  // coordinate range
+const int CAP = 10;   // capacity of each node
 int n; char s[20];
 
-/*
-struct Node{
-  int next;     // if not leaf, then next points to its four children
-                // else next points to data
-  bool divided; // if not divided, then leaf
-};
-
-struct Point{
-  int x,y,next;
-};
-*/
-
-
 struct QuadTree{
+  // n: # of node, x,y: for add & remove, x1,y1,x2,y2: for query
   int n, x, y, x1, y1, x2, y2;
   struct Node{
     int sum, next[4];
     bool divided;
     VR<pii> v;
-    // 1 | 3
-    // 0 | 2
-  }node[MAX<<2];
+    // ^
+    // | 1 | 3
+    // | 0 | 2
+    // +------->
+  }node[MAX<<2];  // root: node[0]
 
   inline bool within(int x, int y, int l1, int r1, int l2, int r2){
     return l1 <= x && x <= r1 && l2 <= y && y <= r2;
@@ -69,8 +59,8 @@ struct QuadTree{
 #ifdef DEBUG
     printf("  divide\n");
 #endif
-    FOR(i,0,4) u.next[i] = ++n;
-    for(auto p : u.v){
+    FOR(i,0,4) u.next[i] = ++n; // add 4 child nodes
+    for(auto p : u.v){  // place all points in child nodes
       if(within(p.FI, p.SE, l1, m1, l2, m2))
         node[u.next[0]].v.push_back(p);
       else if(within(p.FI, p.SE, l1, m1, m2+1, r2))
@@ -94,9 +84,9 @@ struct QuadTree{
   void add(Node &u, int l1, int r1, int l2, int r2){
     ++u.sum;
 
-    if(!u.divided){
+    if(!u.divided){ // leaf
       u.v.push_back({x,y});
-      if(u.v.size() > CAP) divide(u, l1, r1, l2, r2);
+      if(u.v.size() > CAP) divide(u, l1, r1, l2, r2); // too many points
       return;
     }
 
@@ -143,19 +133,20 @@ struct QuadTree{
       remove(node[u.next[3]], m1+1, r1, m2+1, r2);
   }
 
+  // for rectangles (x1,y1)-(x2,y2)
   bool intersect(int l1, int r1, int l2, int r2){
     return l1 <= x2 && r1 >= x1 && l2 <= y2 && r2 >= y1;
   }
-  bool within(int l1, int r1, int l2, int r2){
+  bool within(int l1, int r1, int l2, int r2){  // current rectangle within target rectangle
     return x1 <= l1 && r1 <= x2 && y1 <= l2 && r2 <= y2;
   }
 
   int query(int x1, int y1, int x2, int y2){
-    this->x1 = x1, this->y1 = y1;
-    this->x2 = x2, this->y2 = y2;
 #ifdef DEBUG
     printf("query(%d, %d, %d, %d)\n",x1,y1,x2,y2);
 #endif
+    this->x1 = x1, this->y1 = y1;
+    this->x2 = x2, this->y2 = y2;
     return query(node[0], -RNG, RNG, -RNG, RNG);
   }
 
@@ -178,7 +169,6 @@ struct QuadTree{
       sum += query(node[u.next[2]], m1+1, r1, l2, m2);
     if(intersect(m1+1, r1, m2+1, r2))
       sum += query(node[u.next[3]], m1+1, r1, m2+1, r2);
-
     return sum;
   }
 }qt;
@@ -197,6 +187,5 @@ int main(void){
       else qt.remove(x,y);
     }
   }
-
   return 0;
 }

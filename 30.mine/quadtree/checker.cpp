@@ -64,18 +64,21 @@ int main(void){
 
   FOR(i,0,n){
     Query &q = Q[i]; q.x = ID(q.x);
-    if(q.op == 1) st[q.x].insert(q.y);
-    else if(q.op == 2) st[q.x].erase(q.y);
-    else{
-      q.x2 = ID(q.x2); int sum = 0;
-      FORR(x,q.x,q.x2) if(st[x].size()){
-        auto it = st[x].lower_bound(q.y);
-        while(it != st[x].end() && *it <= q.y2)
-          ++sum, ++it;
+    if(q.op == 1){
+      if(st[q.x].find(q.y) != st[q.x].end()){
+        printf("**WRONG**\n");
+        return 1;
       }
-      printf("%d\n",sum);
+      st[q.x].insert(q.y);
+    }else if(q.op == 2){
+      if(st[q.x].find(q.y) == st[q.x].end()){
+        printf("**WRONG**\n");
+        return 1;
+      }
+      st[q.x].erase(q.y);
     }
   }
+  printf("done\n");
 
   return 0;
 }
