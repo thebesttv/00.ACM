@@ -1,4 +1,4 @@
-// Tag: 
+// Tag: 打表 搜索
 #include<iostream>
 #include<cstdio>
 #include<cstdlib>
