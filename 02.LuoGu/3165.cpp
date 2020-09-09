@@ -93,12 +93,12 @@ struct Splay{
     }
 
     Node *pred(){
-      Node *p = pushdown()->ch[0];
+      Node *p = splay()->pushdown()->ch[0];
       while(p->pushdown()->ch[1]) p = p->ch[1];
       return p->splay();
     }
     Node *succ(){
-      Node *p = pushdown()->ch[1];
+      Node *p = splay()->pushdown()->ch[1];
       while(p->pushdown()->ch[0]) p = p->ch[0];
       return p->splay();
     }
