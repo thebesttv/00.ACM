@@ -1,4 +1,4 @@
-// Tag: 序列Splay ii 动态最大连续子序列
+// Tag: 线段树 序列Splay 动态最大连续子序列
 #include<iostream>
 #include<cstdio>
 #include<cstdlib>
@@ -14,7 +14,6 @@
 #include<map>
 #include<utility>
 #include<algorithm>
-#include<cassert>
 using namespace std;
 
 #define FOR(i,a,b) for(int i=(a);i<(b);++i)
@@ -35,8 +34,8 @@ typedef long long unsigned LLU;
 typedef pair<int,int> pii;
 
 const int INF = 0x3f3f3f3f;
-const int MAX = 500020;
-int n, m, a[MAX]; char op[20];
+const int MAX = 5e5 + 20;
+int n, m, a[MAX];
 
 int read(){
   int x=0,f=1, ch=getchar();
@@ -57,13 +56,13 @@ struct Pool{
 struct Node{
   int v,sum,msl,msr,msm,siz,len;
   Node *ch[2], *fa, **root;
-  bool reverse, bound; int set;
+  bool bound; int set;
   // 左右区间：[l, m-1], [m+1, r]
 
   Node() { }
   Node(int v, Node *fa, Node **root)
     : v(v), sum(v), msl(v), msr(v), msm(v), siz(1), len(1),
-    fa(fa), root(root), reverse(false), bound(false), set(INT_MIN) {
+    fa(fa), root(root), bound(false), set(INT_MIN) {
       ch[0] = ch[1] = nullptr;
     }
 
@@ -107,12 +106,6 @@ struct Node{
   Node *pushdown(){
     if(bound) return this;
 
-    if(reverse){
-      swap(ch[0], ch[1]); swap(msl, msr);
-      if(ch[0]) ch[0]->reverse ^= 1;
-      if(ch[1]) ch[1]->reverse ^= 1;
-      reverse = 0;
-    }
     if(set != INT_MIN){
 #ifdef DEBUG
       printf("  set: %d, len: %d\n",set,len);
@@ -171,7 +164,6 @@ struct Splay{
       p = *lb; p->siz ++;
       lb = &p->ch[0];
     }
-    //*lb = new Node(-INF, p, &root);
     *lb = pl.get(-INF, p, &root);
     (*lb)->sum = (*lb)->len = 0; (*lb)->bound = true;
 
@@ -180,7 +172,6 @@ struct Splay{
       p = *rb; p->siz ++;
       rb = &p->ch[1];
     }
-    //*rb = new Node(-INF, p, &root);
     *rb = pl.get(-INF, p, &root);
     (*rb)->sum = (*rb)->len = 0; (*rb)->bound = true;
   }
@@ -188,7 +179,6 @@ struct Splay{
   Node *build(int *a, int l, int r, Node *fa){
     if(l > r) return nullptr;
     int m = (l+r)/2;
-    //Node *p = new Node(a[m],fa,&root);
     Node *p = pl.get(a[m], fa, &root);
     if(l < r){
       p->ch[0] = build(a, l, m-1, p);
@@ -225,13 +215,6 @@ struct Splay{
     fa->maintain(), fa->fa->maintain();
   }
 
-  void reverse(int l, int r){
-    Node *p = select(l, r);
-    p->reverse = 1; p->pushdown();
-    p->fa->maintain();
-    p->fa->fa->maintain();
-  }
-
   void erase(int l, int r){
     Node *p = select2(l, r);
     recycle(p->ch[0]);
@@ -249,8 +232,8 @@ struct Splay{
   int sum(int l, int r){
     return select(l, r)->sum;
   }
-  int maxsum(){
-    Node *p = select(1, root->siz - 2);
+  int maxsum(int l, int r){
+    Node *p = select(l, r);
     return max(p->msm, max(p->msl, p->msr));
   }
 
@@ -288,35 +271,20 @@ Node *Pool::get(int v, Node *fa, Node **root){
 }
 
 int main(void){
-  pl.init();
-  n = read(), m = read();
-  FORR(i,1,n) a[i] = read();
-  sp.build(a,n);
+  scanf("%d%d",&n,&m); pl.init();
+  FORR(i,1,n) scanf("%d",&a[i]);
+  sp.build(a,n); int op;
   while(m--){
-    int p, t, v; scanf("%s",op);
-    if(op[0] == 'M' && op[2] == 'X'){ // MAX-SUM
-      printf("%d\n",sp.maxsum());
+    scanf("%d",&op);
+    if(op == 1){
+      int l,r; scanf("%d%d",&l,&r);
+      printf("%d\n",sp.maxsum(min(l,r),max(l,r)));
     }else{
-      p = read(), t = read();
-      if(op[0] == 'I'){ // INSERT
-        if(!t) continue;
-        FORR(i,1,t) a[i] = read();
-        sp.insert(p,a,t);
-      }else if(op[0] == 'D'){ // DELETE
-        if(!t) continue;
-        sp.erase(p, p+t-1);
-      }else if(op[0] == 'M' && op[2] == 'K'){ // MAKE-SAME
-        v = read();
-        if(!t) continue;
-        sp.set(p, p+t-1, v);
-      }else if(op[0] == 'R'){ // REVERSE
-        sp.reverse(p, p+t-1);
-      }else{ // GET-SUM
-        printf("%d\n", !t ? 0 : sp.sum(p,p+t-1));
-      }
+      int p,x; scanf("%d%d",&p,&x);
+      sp.set(p,p,x);
     }
 #ifdef DEBUG
-    //printf("%s: ",op); print();
+    print();
 #endif
   }
 
