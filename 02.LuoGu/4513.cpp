@@ -33,6 +33,92 @@ typedef long long LL;
 typedef long long unsigned LLU;
 typedef pair<int,int> pii;
 
+const int MAX = 5e5 + 20;
+int n, m, a[MAX];
+
+int read(){
+  int x=0,f=1, ch=getchar();
+  while (ch<'0' || ch>'9'){if (ch=='-')f=-1;ch=getchar();}
+  while ('0'<=ch && ch<='9')x=(x<<1)+(x<<3)+(ch^48),ch=getchar();
+  return x*f;
+}
+
+struct ST{
+  struct Node{
+    LL sum, msl, msm, msr; int vMax;
+    Node(int x = 0) : sum(x), vMax(x) {
+      msl = msm = msr = max(x, 0);
+    }
+  }node[MAX<<2];
+
+  Node merge(const Node &l, const Node &r){
+    Node a;
+    a.vMax = max(l.vMax, r.vMax);
+    a.sum = l.sum + r.sum;
+    a.msl = max(l.msl, l.sum + r.msl);
+    a.msr = max(r.msr, r.sum + l.msr);
+    a.msm = max(l.msr + r.msl, max(l.msm, r.msm));
+    return a;
+  }
+
+  void build(int *a, int n){
+    build(1,1,n,a);
+  }
+
+  void pushup(int u){
+    node[u] = merge(node[u<<1], node[u<<1|1]);
+  }
+  void build(int u, int l, int r, int *a){
+    if(l == r) { node[u] = a[l]; return; }
+    int m = (l+r)/2;
+    build(u<<1, l, m, a);
+    build(u<<1|1, m+1, r, a);
+    pushup(u);
+  }
+  void set(int p, int val){
+    set(1,1,n,p,val);
+  }
+  void set(int u, int l, int r, int p, int val){
+    if(l == r) { node[u] = val; return; }
+    int m = (l+r)/2;
+    if(p <= m) set(u<<1, l, m, p, val);
+    else set(u<<1|1, m+1, r, p, val);
+    pushup(u);
+  }
+  LL maxsum(int l, int r){
+    Node p = maxsum(1,1,n,l,r);
+    if(p.vMax < 0) return p.vMax;
+    else return p.msm;
+  }
+  Node maxsum(int u, int cl, int cr, int ql, int qr){
+    if(ql <= cl && cr <= qr) return node[u];
+    int m = (cl+cr)/2; Node l, r;
+    l.vMax = r.vMax = INT_MIN;
+    if(ql <= m) l = maxsum(u<<1, cl, m, ql, qr);
+    if(m+1 <= qr) r = maxsum(u<<1|1, m+1, cr, ql, qr);
+    return merge(l,r);
+  }
+}sg;
+
+int main(void){
+  scanf("%d%d",&n,&m);
+  FORR(i,1,n) scanf("%d",&a[i]);
+  sg.build(a,n); int op;
+  while(m--){
+    scanf("%d",&op);
+    if(op == 1){
+      int l,r; scanf("%d%d",&l,&r);
+      printf("%lld\n",sg.maxsum(min(l,r),max(l,r)));
+    }else{
+      int p,x; scanf("%d%d",&p,&x);
+      sg.set(p,x);
+    }
+  }
+
+  return 0;
+}
+
+/*
 const int INF = 0x3f3f3f3f;
 const int MAX = 5e5 + 20;
 int n, m, a[MAX];
@@ -283,10 +369,8 @@ int main(void){
       int p,x; scanf("%d%d",&p,&x);
       sp.set(p,p,x);
     }
-#ifdef DEBUG
-    print();
-#endif
   }
 
   return 0;
 }
+*/
