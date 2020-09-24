@@ -1,4 +1,4 @@
-// Tag: 层次图 最短路
+// Tag: 分层图 最短路
 #include<iostream>
 #include<cstdio>
 #include<cstdlib>
