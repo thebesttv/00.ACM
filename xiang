@@ -6,4 +6,4 @@ case $# in
   g++ FILE -ggdb && ./a.out < in && xclip FILE"; exit 1 ;;
 esac
 
-g++ "$filename" -ggdb && ./a.out < "in" && xclip "$filename"
+g++ "$filename" -ggdb && ./a.out < "in" && xclip -selection c "$filename"
