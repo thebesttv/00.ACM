@@ -3,7 +3,7 @@
 case $# in
   1) filename="$1"  ;;
   *) echo -e "Usage: xx FILE, alias for:
-  g++ FILE -ggdb && ./a.out < in"; exit 1;;
+  g++ FILE -ggdb && ./a.out < in && xclip FILE"; exit 1 ;;
 esac
 
-g++ "$filename" -ggdb && ./a.out < "in"
+g++ "$filename" -ggdb && ./a.out < "in" && xclip "$filename"
