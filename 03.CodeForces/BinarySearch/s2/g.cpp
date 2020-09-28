@@ -51,7 +51,7 @@ int n,k; LL a[120];
 
 bool ok(LL x){
   LL sum = 0;
-  FORR(i,1,n) sum += max(x, a[i]);
+  FORR(i,1,n) sum += min(x, a[i]);
   return sum >= x * k;
 }
 
