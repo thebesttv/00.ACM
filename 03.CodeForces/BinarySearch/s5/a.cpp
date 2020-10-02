@@ -1,4 +1,4 @@
-// Tag: 
+// Tag: 二分
 #include<iostream>
 #include<cstdio>
 #include<cstdlib>
