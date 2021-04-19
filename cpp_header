@@ -40,10 +40,9 @@ int read(){
   return s;
 }
 
-int nread(){
-  int s = 0, ch, neg = 0;
-  do ch = getchar(), neg |= (ch == '-'); while(!isdigit(ch));
-  while(isdigit(ch)) s = s*10 + ch-'0', ch = getchar();
-  return neg ? -s : s;
-}
 
+
+int main(void){
+
+  return 0;
+}
