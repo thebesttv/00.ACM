@@ -1,0 +1,6 @@
+
+g++ ./test.c -o ./dp.test.out
+g++ ./ori.c -o ./dp.ori.out
+g++ ./input.c -o ./dp.input.out
+
+echo "compling done"

@@ -1,0 +1,858 @@
+函数指针
+  类型名 (* 指针变量名)(参数类型1, 参数类型2, ...);
+  通过函数指针调用函数：
+    int fun(int a, char b);
+    int (*pf)(int, char)=fun;
+    int x=0; char y='a';
+    pf(x,y);
+
+C中的qsort函数
+  void qsort(void * base, int nelem, unsigned int width, int (* pfCompare)(const void *, const void *));
+  在pfCompare中 pfCompare(const void * a, const void * b)
+  若a应在b前，则返回负数
+  若a和b可任意顺序，返回 0
+  若a应在b后，则返回正数
+
+int Compare(const void * a, const void * b){
+  return *((int *)a) - *((int *)b);
+}
+int main(void){
+  int a[10]={2,4,3,2,5,5,7,2,1,0};
+  qsort(a,10,sizeof(int),Compare);
+
+  return 0;
+}
+
+命令行参数
+int main(int argc, char * argv[]){
+  //argc代表启动程序时，命令行参数的个数
+  //C,C++中，程序本身的文件名也算一个命令行参数，因此argc的值至少为1
+  //argv为指针数组，每个元素都是一个char *类型的指针，每一个指针指向的字符串都存放着命令行参数
+  //argv[0]:第一个参数，即文件名
+  //argv[1]:第二个参数
+  //...
+}
+
+异或
+  若a^b=c，则a^c=b, b^c=a
+  交换a,b:
+    a=a^b; b=a^b; a=a^b;
+  a^b^b == a
+
+引用
+  类型名 & 引用名 = 某变量名
+  对某个变量的引用，等价于该变量
+<b>定义引用时必须将其初始化为引用某个变量</b>
+<b>一个引用一旦初始化，不再修改，不再引用其他变量</b>
+<b>引用作为函数的返回值
+    int n=4;
+    int & SetValue() {return n;}
+    int main(void){
+      SetValue()=40;
+      cout << n << endl;	//->40
+    }
+</b>
+  常引用
+    const int & r = ...;
+    不能通过常引用修改其引用内容
+  T & 类型的引用或 T 类型的变量可以用来初始化 const T & 类型的引用
+  const T 类型的常变量和 const T & 类型的引用不能用来初始化 T & 类型的引用，除非进行强制类型转换
+
+const的用法
+  1.定义常量
+  2.定义常量指针
+ <b>不能通过常量指针修改其指向的内容</b>
+ <b>可以修改常量指针的指向（即其指向变量的地址）</b>
+    不能把常量指针赋值给非常量指针
+      int a,b;
+      const int * p1=&a; int p2=&b;
+      p1=p2;
+      p2=(int *)p1;  //不能p2=p1;
+    定义函数参数时，用常量指针，可避免函数内部不小心改变参数中指针指向的内容
+  3.定义常引用
+  const 是为普通变量（非指针、非引用）服务的，其为了保证普通变量的内容不被直接或间接地修改
+    const 变量无论如何不能被修改
+  	const指针不能修改其指向变量的值，但可指向其他变量
+	  const引用不能修改其引用的变量的值
+    const不能直接用来给任何变量赋值，除非强制类型转换
+
+动态内存分配
+用new运算符实现动态内存分配
+  1.分配一个变量
+    P = new T;
+    T为任意类型名，P是类型为T*的指针
+      int * p;
+      p=new int;
+      *p=10;
+  2.分配一个数组
+    P = new T[N];
+  new运算符返回值的类型为T*
+用delete运算符释放动态分配的内存
+  delete P;    //释放变量
+  delete [] P; //释放数组
+  指针P指向的空间必须是运算符分配的空间
+
+内联函数
+  inline 函数定义
+  当一个只有几条语句的函数被执行很多次时，函数的时间开销会很大
+  为减少函数调用的开销而引入
+  编译器处理内联函数的调用语句时，会将整个函数的代码插入到调用语句处，而非将其当作一个新的函数调用
+  inline int Max(int a, int b){
+    return a>b ? a : b;
+  }
+  要在函数体前修饰，只修饰函数的声明没有用
+  inline只是对编译器的一个建议，真正是否内联由编译器决定
+  不要内联switch，否则速度比直接调用它还要慢
+
+函数重载
+  一个或多个函数名相同的，但参数表（即参数个数+参数类型）不同的函数，为函数的重载
+  int Max(double f1, double f2);
+  int Max(int n1, int n2);
+  int Max(int n1, int n2, int n3);
+  重载的函数参数表必须不同，若两个函数的函数名、参数表相同，仅返回值不同，会报错（重复定义）
+
+函数的缺省参数
+  void fun(int a, int b, int c=1, ... , int n=10);
+  函数<b>最右边</b>的J<b>连续</b>若干个参数有缺省值
+  在调用函数时，只能最右边的连续若干个参数缺省，不能 fun(10,,8);
+  可提高程序的可扩充性
+
+面向对象的程序设计方法
+  结构化程序设计
+    复杂的大问题->模块化->若干子问题
+    自顶向下，逐步求精
+  面向对象的程序设计方法
+    面向对象的程序 = 类 + 类 + …… + 类
+    设计程序的过程->设计类的过程
+    一类事物 -抽象-> 共同属性(数据结构)、行为(函数) -封装-> 类
+
+面向对象程序设计语言的发展历程
+- 1960年，ALGOL 60诞生
+- 1964年，CPL语言，更加接近硬件
+- 1967年，BCPL语言，CPL的简化
+* 1967年，Simula 67，提出类和子类的概念，里程碑
+- 1970年，B语言，贝尔实验室，BCPL的简化，写出第一个Unix
+* 1971年，Smalltalk，和第一个正真的IDE
+- 1973年，C语言，AT&T
+* 1983年，C++语言，AT&T
+* 1995年，JAVA语言，跨平台
+* 2003年，C#，MicroSoft
+
+C++
+  开始版本称为 C with Classes
+  C++ Bible: The C++ Programming Language
+  1989年，C++ 2.0版
+  1994年，ANSI C++标准发布
+  1998年，ANSI和ISO发布C++98标准，加入STL(Standard Template Library)
+  2003年，ISO发布C++03标准
+  2005年，Library Technical Report 1 (TR1) 技术报告发布
+  2011年，ISO通过C++11标准
+
+类
+  class 类名{
+    访问范围说明符:
+      成员变量1
+      成员变量2
+      …
+      成员函数声明1
+      成员函数声明2
+      …
+    访问范围说明符:
+      …
+  };
+  类要以分号结束
+  对象的内存空间
+    对象大小=所有（非静态、非常量）成员变量的大小之和
+  类的对象之间可以用"="赋值，但不能用"=="，"!="，">"等进行比较，除非这些运算符经过了重载
+  类的成员函数的外部定义
+    class Rectangle{
+    public:
+      int w,h;
+      int Area();
+      int Perimeter();
+      void Init(int w_, int h_);
+    }r1,r2;
+
+    int Rectangle::Area(){
+      return w*h;
+    }
+    int Rectangle::Perimeter(){
+      return 2*(w+h);
+    }
+    void Rectangle::Init(int w_, int h_){
+      w=w_; h=h_;
+    }
+
+访问类的成员变量和成员函数
+[1]对象名.成员名
+  r1.w=5;
+  r2.Init(5,6);
+[2]指针->成员名
+  Rectangle *pr1=&r1, *pr2=&r2;
+  pr1->w=5;
+  pr2->Init(5,6);
+[3]引用名.成员名
+  Rectangle &rr1=r1, &rr2_=r2;
+  rr1.w=5;
+  rr2.Init(5,6);
+
+类成员的可访问范围
+  关键字
+    private:私有成员，只能在成员函数内部访问
+    public:公有成员，可以在任何位置访问
+    protected:保护成员
+  三个关键字出现的次数和先后范围无限制
+<b>缺省为私有成员</b>
+  类的成员函数内部可访问当前对象的全部属性、函数，以及<b>同类其他对象</b>的全部属性、函数
+  类的成员函数以外，只能访问该类的公有成员
+  限制私有：  //???
+    限制对私有成员的访问、修改只能通过成员函数进行
+    保护成员
+
+内联成员函数与重载成员函数
+内联成员函数
+  减少调用开销
+  方法：
+    [1]inline+成员函数
+ <b>[2]整个函数体的实现在类定义内部会自动inline</b>
+重载成员函数
+  可带有缺省参数
+  避免二义性
+    void fun(int a=0);
+    void fun();
+    编译器报错，因为当调用 fun() 时出现二义性
+
+构造函数(constructor)
+  成员函数的一种，将对象进行初始化，如给成员变量赋值
+  函数名与类名相同，可以有参数（因此可以定义多个构造函数），但不能有返回值
+  如果定义类时没有显示地定义构造函数，编译器会生成一个默认的无参数构造函数；如果已经定义构造函数，即使有参，编译器也不会再构造无参构造函数
+    默认的无参构造函数不会做任何操作
+<b>对象所占用的存储空间不是构造函数分配的</b>，构造函数只是<b>在对象被创建后（即对象的存储空间被分配后）</b>进行操作
+  对象一旦生成，不再执行构造函数
+  一个类可以有多个重载的构造函数
+  无论是用类名生成一个对象，还是用 new 为一个对象分配空间，都会调用构造函数
+    class A{
+      private:
+        int n;
+      public:
+        A();                                  //f1
+        A(int n_) {n=n_;}                     //f2
+        A(int n1_, int n2_) {n = n1_ + n2_;}  //f3
+      };
+
+    A * p = new A(10); //<b> </b>
+    A array[4] = {1, A(2), A(1,2)};  //array[0:2] 通过有参构造函数构造，array[3] 通过无参构造函数构造
+                                     //a[0]: f2, a[1]: f2, a[2]: f3, a[3]: f1
+                //构造数组时初始化，在花括号中不能用 (1,2) 调用有两个参数的构造函数，只能用 A(1,2)
+    A * pArray[3] = {new A(1), new A(2,3)};
+
+复制构造函数
+  复制构造函数有且只有一个参数，即对同类对象的引用或常引用，因此只能有一个复制构造函数
+  如果没有定义复制构造函数，编译器会自动生成默认复制构造函数，完成复制功能，但默认的复制构造函数只进行浅复制
+  若自定义构造函数，则不会有默认构造函数
+  复制构造函数起作用的三种情况
+    [1]用一个对象去初始化同类的另一个对象
+      A a2(a1); <==> A a2=a1;  //<b>都为初始化语句，非赋值语句，不使用赋值运算符（=）</b>
+    [2]若某函数型参中有一个参数是类 A 的<b>对象</b>，则当该函数被调用时，类 A 的复制构造函数会被调用
+   <b>注意：若自定义复制构造函数，则函数型参的值不一定会被正真“复制”</b>
+      A::A(A & a_){
+        //do nothing
+      }
+      void fun(A a);  //当调用该函数时，a 没有被真正“复制”
+    [3]若函数的返回值是类 A 的对象，则当函数返回时，类 A 的复制构造函数被调用
+      同样，这里的复制不一定是真正的“复制”
+      A fun(){
+        A a(4); return a;
+      }
+      //fun().n == 4
+  自己写复制构造函数的原因：
+    浅复制和深复制的区别
+      浅复制连同指针的指向也一同无改变地复制，在链表中可能造成指针紊乱
+
+类型转换构造函数
+  实现类型的自动转换，将把赋值操作符右边类型与类的类型不同的变量转换为与类的类型相同的临时对象
+<b>只有一个参数</b>，且不是复制构造函数
+  编译系统自动调用 -> 转换构造函数 -> 建立临时对象/变量 -> 销毁临时对象/变量
+  当赋值结束后，临时对象会被析构
+  class Complex{
+  public:
+    double real, imag;
+    Complex(int r_){  //类型转换构造函数
+      printf("IntConstructor called\n");
+      real = r_; imag = 0;
+    }
+    Complex(double r_, double i_){
+      real = r_; imag = i_;
+    }
+  };
+  int main(void){
+    Complex c1(7,8);
+    c1 = 9;  //9 被自动转换为一个临时的 Complex 对象
+    Complex c2 = 12;  //"=" 非赋值操作符，对 c2 初始化，将 12 作为参数传入构造函数，而<b>不会建立临时的 Complex 对象</b>
+    return 0;
+  }
+  -> IntConstructor called
+     IntConstructor called
+
+析构函数(destructor)
+  函数名为 "~类名"
+  没有参数和返回值，因此最多只有一个析构函数
+  对象消亡时被自动调用，进行将分配的内存空间释放等工作，否则可能造成内存泄漏
+  如果没有写析构函数，编译器会自动生成默认析构函数，但<b>默认的析构函数不涉及用户申请的内存释放等清理工作</b>
+    class String{
+    private:
+      char * p;
+    public:
+      String() { p = new char[100]; }
+      ~String() { delete [] p; }
+    };
+  当对象数组的生命周期结束时，数组中每个元素的析构函数都会被分别调用
+  对于静态对象，其作用域为整个程序，只有在程序结束时才会被析构
+  先被构造的函数通常最后析构
+<b>用 new 生成的对象，即使在 main 函数中被 delete，在最后还是会被析构</b> //???
+
+静态成员变量和静态成员函数
+  定义时加入 static 关键字
+  普通成员变量每个对象都有独立的一份；而静态成员变量<b>一共只有一份，为所有对象共享</b>，类似于 class 类中的全局变量
+  普通成员函数必须作用于某个对象，而静态成员函数<b>不也不能具体作用于某个对象</b>
+  sizeof 运算符不会计算静态成员变量
+    class A{
+      static int a;
+      int n;
+    };  //sizeof(A) == sizeof(A.n) == 4
+  因为静态成员不作用于具体对象，所以其<b>不需要通过具体对象</b>就能访问
+  访问方式：
+ <b>[1]类名::成员名</b>
+    [2]对象名.成员名  //静态成员函数不作用于具体的对象
+    [3]指针->成员名
+    [4]引用.成员名
+  静态成员变量本质上是全局变量，<b>即使一个类没有对象，它的静态成员变量依旧存在</b>
+  静态成员函数本质上是全局函数
+  <b>在定义类的文件中的类定义的<b>外部</b>，必须对静态成员变量进行一次说明或初始化，否则编译能通过，链接不能通过。且在声明/初始化时不需要使用 static 修饰符</b>
+  <b>静态成员函数不能访问非静态成员变量，也不能调用非静态成员函数</b>，因为静态成员函数不作用在特定对象上，而非静态的变量/函数作用在特定对象上
+
+class Rectangle{
+  private:
+    static int nTotalNumber;
+    int w,h;
+  public:
+    Rectangle(int w_, int h_);
+    Rectangle(Rectangle & a);  //<b>复制构造函数</b>
+    //函数参数、返回值
+    //临时对象在消亡时会调用析构函数，减少 nTotalNumber，但其产生时未增加 nTotalNumber 的值
+    ~Rectangle();
+    static void PrintTotal();
+};
+int Rectangle::nTotalNumber=0;  //<b>在类的外面对静态变量初始化，不用 static 修饰符</b>
+
+Rectangle::Rectangle(int w_, int h_){
+  nTotalNumber++;
+  w=w_; h=h_;
+}
+Rectangle::Rectangle(Rectangle & a){
+  nTotalNumber++;
+  w=a.w; h=a.h;
+}
+Rectangle::~Rectangle(){
+  nTotalNumber--;
+}
+void Rectangle::PrintTotal(){
+  printf("%d\n",nTotalNumber);
+}
+
+成员对象和封闭类
+  成员对象：一个类的对象是另一个类的成员变量
+  包含成员对象的类叫做封闭类(enclosing)
+  生成封闭对象的语句 -> 明确对象中的成员对象 -> 如何初始化
+  class Tyre{
+  private:
+    int radius, width;
+  public:
+    Tyre(int r_, int w_): radius(r_), width(w_) {}  //使用初始化列表初始化
+  };
+  class Engine{...};
+  class Car{  //封闭类
+  private:
+    int price;
+    Tyre tyre;
+    Engine engine;
+  public:
+    Car(int p_, int tr_, int tw_): price(p_), tyre(tr_, tw_) {}
+    //如果 Car 类不定义 带有Tyre的构造函数 的构造函数，则对语句 Car car; 编译出错
+    //因为编译器不知道 car.tyre 该如何初始化，而对 car.engine 可以直接用Engine的默认构造函数初始化
+  }
+封闭类构造函数的初始化列表
+  封闭类名::构造函数(参数表): 成员变量1(参数表), 成员变量2(参数表) ... {}
+  当封闭类对象生成时，先执行所有成员对象的构造函数，再执行外层封闭类的构造函数
+  成员对象的构造函数的调用顺序与成员对象在类中的说明顺序一致，与成员在初始化列表中的顺序无关
+  当对象消亡时，先执行封闭类的析构函数，再执行成员对象的析构函数
+  构造函数与析构函数的思想：先构造的后析构，后构造的先析构
+
+友元(friend)
+友元函數
+  一个类的友元函数可以访问该类的私有成员
+  一个类的友元函数可以是另一个类的函数，也可以是全局函数
+  class Car;
+  class Driver{
+  public:
+    void ModifyCar(Car * pCar);
+  };
+  class Car{
+  private:
+    int price;
+    friend int MostExpensiveCar(Car chars[], int tot);  //声明友元
+    friend void Driver::ModifyCar(Car * pCar);
+  };
+  void Driver::ModifyCar(Car * pCar){
+    pCar->price += 1000;
+  }
+  int MostExpensiveCar(Car cars[], int tot){
+    int Max=-1;
+    for(int i=0;i<total;i++) if(cars[i].price > Max)
+      Max = cars[i].price;
+    return Max;
+  }
+友元类
+  若 A 是 B 的友元类，则 A 的成员函数可以访问 B 的私有成员
+  友元类之间的关系不能传递、不能继承，也<b>不是相互的</b>
+
+this 指针
+  C++ 程序到 C 程序的翻译：通过 this 指针对特点对象进行修改
+    C++:                      C:
+      class A{                  struct A{
+      public:                     int n;
+        int n;                  }
+        void fun(int n_){  ==>  void fun(struct A * this, int n_){
+          n = n_;                 this->n = n_;
+        }                       }
+      };
+  C++ 的非静态成员函数的真实参数个数比代码中的多 1
+  作用：指向成员函数所作用的对象
+  隐式的 this 指针在使用 sizeof 操作符时不算入占用空间
+  静态成员函数不能使用 this 指针，因为其不具体作用于一个特定对象，因此，静态函数的真实参数个数不变
+
+常量对象
+  产量对象一旦初始化，值不再改变
+  在成员函数<b>后</b>加 const 关键字，成为常量成员函数
+    常量成员函数在执行期间，不能修改其所作用的对象（除静态变量），也不能调用同类的非常量函数（除静态成员函数）
+    因此，<b>常量成员函数中不应出现 this 指针</b>
+  常量对象不能执行非常量成员函数，只能执行常量成员函数
+<b>一个类中，可以有参数表相同的，但一个是常量函数，一个不是常量函数的函数，不算做重复定义</b>
+    定义后，常量对象调用常量成员函数，非常量对象调用非常量成员函数
+
+运算符重载
+  C++ 预定义的运算符只适用于基本的数据类型
+  对已有的运算符赋予多重含义
+  同一运算符作用于<b>不同的数据类型时</b>，有不同的行为
+<b>实质：函数重载</b>
+  运算符可以被重载为普通函数，也可以被重载为类的成员函数
+  重载为普通函数
+    返回值类型 operator 运算符 (形参表){
+     ...
+    }
+    编译时，编译器把含运算符的表达式转换为对<b>运算符函数</b>的调用，将运算符的操作数转化为函数的参数
+  当运算符多次被重载时，根据参数的类型决定调用的运算符函数
+  重载为普通函数时，参数个数即为运算符的目数
+    class Complex{
+      public:
+        Complex(double r_=0.0, double i_=0.0): r(r_), i(i_) {}
+        double r, i;
+    };
+    Complex operator + (const Complex & a, const Complex & b){
+      return Complex(a.r + b.r, a.i + b.i);
+    }
+    Complex a(1,2), b(2,3), c;
+    c = a + b;  //-> c.r==3, c.i==5
+  重载为成员函数，参数个数为运算符数目 - 1
+    class Complex{
+      public:
+        Complex(double r_=0.0, double i_=0.0): r(r_), i(i_) {}
+        Complex operator + (const Complex &);
+        Complex operator - (const Complex &);
+      private:
+        double r, i;
+    };
+    Complex Complex::operator + (const Complex & b){
+      return Complex(r+b.r, i+b.i);
+    }
+    Complex Complex::operator - (const Complex & b){
+      return Complex(r-b.r, i-b.i);
+    }
+    Complex a(1,2), b(2,3), c;
+    c = a + b;  // <==> c = a.operator + (b);
+    c = a - b;  // <==> c = a.operator - (b);
+
+[] 是双目运算符
+
+赋值运算符的重载
+  赋值运算符两边的类型可以不匹配（如复制构造函数）
+  赋值运算符<b>只能被重载为成员函数</b>
+
+编写一个长度可变的字符串类型 String
+  class String{
+    private:
+      char * str;
+    public:
+      String(): str(NULL) {}
+      ~String();
+      const char * getStr() {return str;}
+      char * operator = (const char * s);
+  };
+  char * String::operator = (const char * s){
+    if(str) delete [] str;  //<b> </b>
+    if(s){
+      str = new char[strlen(s)+1];
+      strcpy(str,s);
+    }else{
+      str=NULL;
+    }
+    return str;
+  }
+  String::~String(){
+    if(str) delete [] str;
+  }
+  int main(void){
+    String s;
+    s = "hello";
+    cout << s.getStr() << endl;
+    String s2 = "HELLO";  //若写了，编译出错
+    //因为该语句非赋值语句，而是初始化语句，而当前String类没有该构造函数
+    return 0;
+  }
+
+重载赋值运算符的意义——浅复制和深复制
+  通常出现于赋值运算符、复制构造函数等地方
+  浅复制/浅拷贝
+    执行逐个字节的复制工作
+    可能引发问题
+      MyString s1,s2;
+      s1="hello";
+      s2="world";
+      s1=s2;  //默认赋值函数，-> s1.str == s2.str，两者指向同一个内存空间
+  深复制/深拷贝
+    将一个对象中<b>指针指向的</b>内容复制到另一对象中<b>指针指向的</b>地方
+      MyString & MyString::operator = (const MyString & s2){
+        if(str == s2.str) return * this;  //<b>如果没有该判断，则当s=s时出错</b>
+        if(str) delete [] str;
+        if(s2.str){
+          str = new char[strlen(s2)+1];
+          strcpy(str,s2);
+        }else{
+          str = NULL;
+        }
+        return *this;
+      }
+      s1=s2;  //重载赋值运算符，s1, s2 指针指向的地址不同，但两者地址中的内容是相同的
+  赋值运算符返回值最好为被赋值的类的类型的<b>引用</b>
+    如果为 void 型无法完成 a = b = c (<==> a.operator = (b.operator = (c))
+    如果为类的类型，效率低下
+  运算符重载时，尽量保留运算符原本的特性
+    (a=b)=c  <==> (a.operator = (b)).operator = (c);
+      //-> a==c
+
+运算符重载为友元
+  成员函数不能满足使用需求，而普通函数又不能访问类的私有函数
+    class Complex{
+      private:
+        double r,i;
+      public:
+        ...
+        Complex operator + (double r_){ //可以实现 c+5，但<b>不能实现 5+c </b>
+          return Complex(r+r_,i);       //需要将运算符重载为普通函数才能实现 5+c
+        }
+        friend Complex operator + (double r_, const Complex & c);
+    };
+
+<b>流插入运算符和流提取运算符的重载
+  cout 是在 iostream 中定义的 ostream 类对象
+    在 ostream 中对 << 进行了重载
+    ostream & ostream::operator << (...){
+      ...
+      return *this; //<b> </b>
+    }
+    cout << 5 << "this"; <==> (cout.operator << (5)).operator << ("this");
+
+class Student{
+  public:
+    int age;
+};
+ostream & operator << (ostream & out, const Student & s){
+  //由于 ostream 类已经定义，不能再在类中添加成员函数；而如果重载为 Student 的成员函数，则运算符左边必须是该类的对象
+  //所以<b>只能将 << 重载为全局函数</b>
+  out << s.age;
+  return out;
+}
+
+Student s;
+s.age=10;
+cout << s << endl
+</b>
+
+class Complex{
+  private:
+    double r,i;
+  public:
+    Complex(double r_=0, double i_=0): r(r_), i(i_) {}
+    friend ostream & operator << (ostream & os, const Complex c); //处理私有成员变量，声明成友元函数
+    friend istream & operator >> (istream & is, Complex & c);
+};
+
+ostream & operator << (ostream & os, const Complex c){
+  os << c.r << "+" << c.i << "i";
+  return os;
+}
+istream & operator >> (istream & is, Complex & c){
+  is >> c.r >> c.i;
+  return is;
+}
+
+
+int main(void){
+  Complex a;
+  cin >> a;
+  cout << a << endl;
+
+  return 0;
+}
+
+自增、自减运算符的重载
+  有前置、后置之分
+  前置运算符作为<b>一元运算符</b>重载
+    重载为成员函数
+      T & operator ++ ();
+      T & operator -- ();
+    重载为全局函数
+      T & operator ++ (T);
+      T & operator -- (T);
+    ++a, a.operator++(), operator++(a) 都将调用前置运算符
+  后置运算符作为<b>二元运算符</b>重载
+    为与前置运算符区别，多写一个参数，具体无意义
+    重载为成员函数
+      T & operator ++ (int);
+      T & operator -- (int);
+    重载为全局函数
+      T operator ++ (T,int);
+      T operator -- (T,int);
+    a++, a.operator++(0), operator++(a,0) 都将调用后置运算符
+
+类型强制转换运算符
+  operator T () {...}
+<b>不能写返回值类型</b>
+  返回值类型：类型强制转换运算符所代表的类型
+
+运算符重载的注意事项
+  C++ 不允许定义新的运算符
+  重载的运算符应符合日常习惯
+  运算符重载不改变运算符的优先级
+  不能被重载的运算符： .  .*  ::  ?:  sizeof
+  重载运算符 (), [], -> 还有赋值运算符 = 时，重载函数必须声明为类的成员函数
+
+"*"运算符
+  作为间接寻址运算符，可以被重载为单目运算符
+  作为乘法运算符，可以被重载为双目运算符
+
+继承和派生
+  在定义一个新的类 B 时，如果该类与某个已有的类 A 相似（即 B 拥有 A 的全部特点），那么就可以把 A 作为一个基类，把 B 作为基类的一个派生类（也称子类）
+  派生类具有基类的全部特点，是基类的扩展和<b>修改</b>
+  派生类一经定义，可以独立使用，不宜赖于基类
+  派生类拥有基类的私有成员、公有成员和保护成员，但不能访问基类的私有成员
+  class 派生类名: public 基类名 {
+    ...
+  };
+  派生类对象的内存空间
+    派生类对象的大小 = 基类对象的大小 + 自身成员变量大小
+    基类对象的存储位置位于派生类对象新增的成员变量之前
+
+class Student{
+  private:
+    string name;
+    int age;
+  public:
+    bool isThreeGood();
+    void setName(const string & name_) {name=name_;}
+    void printInfo();
+};
+class UndergraduateStudent: public Student{
+  private:
+    int department;
+  public:
+    bool isThreeGood(); //"覆盖" Student 类中的同名同参函数
+    bool canBaoYan();
+    void printInfo(){
+   <b>Student::printInfo(); //调用 Student 类中的同名函数</b>
+      ...
+    }
+};
+class GraduatedStudent: public Student{
+  private:
+    int department;
+    string mentorName;
+  public:
+    int salary();
+}
+
+<b>类之间的关系</b> //???
+  继承关系
+    “是(is-a)”关系
+    若基类 A 的派生类为 B ，则逻辑上要求：一个 B 对象也是一个 A 对象，即 B is A
+      如中学生、大学生、本科生、研究生都是学生
+  复合关系
+    “有(has-a)”关系
+    若类 C 中有成员变量 k ，k是类 D 的对象，则 C 和 D 是复合关系，逻辑上要求： D 的对象是 C 对象的固有属性或组成部分，即 C has D
+      class Master;
+      class Dog{
+        Master * pm;
+      };
+      class Master{
+        Dog * pd[10];
+      };
+
+基类/派生类的同名成员与 protected 关键字
+  一般来说，基类和派生类定义不同名称的成员变量
+  class Base{
+    private:
+      int j;
+    public:
+      int i;
+      void fun();
+  };
+  class Drived: public Base{
+    public:
+      int i;
+      void fun();
+      void access(){
+        i=5;          //派生类
+        Base::i=5;    //基类
+        fun();        //派生类
+        Base::fun();  //基类
+      }
+  };
+  访问范围说明符
+    基类的 private 成员，可以被以下函数访问
+      基类的成员函数
+      基类的友元函数
+    基类的 public 成员，可以被所有函数访问
+    基类的 protected 成员，可以被以下函数访问
+      基类的成员函数
+      基类的友元函数
+      派生类的成员函数可访问<b>当前对象的</b>基类的保护成员
+        main 函数等其他函数都不能访问派生类对象的基类对象的保护成员
+        class A{
+          protected: int a;
+        };
+        class B: public A{
+          void access(){
+            a=1;    //ok
+            A ta;
+            ta.a=1; //wrong，ta不是当前对象
+          }
+        }
+派生类的构造函数
+  在执行派生类的构造函数，先执行基类的构造函数
+  class 派生类名: public 基类名 {
+    派生类名(形参表): 基类名(基类构造函数实参表){ //派生类的构造函数
+      ...
+    }
+  };
+    class Bug{
+      private:
+        int legs,color;
+      public:
+        int type;
+        Bug(int legs_, int color_);
+        void printBug();
+    };
+    class FlyBug: public Bug{
+      private:
+        int wings;
+      public:
+        FlyBut(int legs_, int color_, int wings_): Bug(legs_,color_), wings(wings_) { }
+    };
+  调用基类构造函数的两种方式
+    显示方式
+      Drived::Drived(arg_Drived-list): Base(arg_Base-list) { }
+    隐式方式
+      在派生类的构造函数中，自动调用基类的默认构造函数
+派生类的析构函数
+  先调用派生类的析构函数，再调用基类的析构函数
+
+包含成员对象的派生类构造函数
+  创建派生类的对象时
+    先调用基类的构造函数，初始化派生类对象中从基类继承的成员
+    再调用成员对象的构造函数，初始化派生类中成员对象
+    最后调用派生类的构造函数
+  执行派生类的析构函数时
+    先调用派生类的析构函数
+    再调用派生类的成员对象的析构函数
+    最后调用基类的析构函数
+  两者顺序相反
+
+  class Skill{
+    private:
+      int n;
+    public:
+      Skill(int n_): n(n_) { }
+  };
+  class FlyBug: public Bug{
+    private:
+      int wings;
+      Skill s1,s2;
+    public:
+      FlyBug(int legs_, int color_, int wings_): Bug(legs_,color_), s1(5), s2(color) {  //s1,s2只能在初始化列表中初始化
+        wings=wings_;
+      }
+  }
+
+public 继承的赋值兼容规则
+  class Drived: public Base {};
+  public 表示公有派生
+  1.派生类对象可以赋值给基类对象
+    基类对象不能赋值给派生类对象
+  2.派生类可以初始化基类引用
+    Base & br=d;
+  3.派生类对象的地址可以赋值给基类指针
+  如果派生方式非公有，则上述三条不成立
+
+直接基类和间接基类
+  类的对象可以是有很多层的
+    class B: public A { };
+    class C: public B { };
+    ...
+    则 A 是 B 的直接基类， A 是 C 的间接基类
+  在声明派生时，只需列出其直接基类
+  派生类的构造函数只需初始化直接基类
+  构造时，从最早的间接基类开始，一层层向下构造
+  派生类的成员包括：
+    派生类自身的成员
+    直接基类中的所有成员
+    所有间接基类的所有成员
+
+虚函数和多态
+虚函数
+  在类中，有 virtual 关键字的成员函数即为虚函数
+  virtual 关键字只用在类定义中的函数声明前，在函数体前不用
+  构造函数和析构函数不能是虚函数
+  虚函数能参与多态，而普通函数不能
+
+多态的表现形式之一
+  派生类的指针可以赋值给基类指针
+  通过基类指针p调用基类和派生类的同名<b>虚函数</b>时
+    若p指向基类对象，则调用基类的虚函数
+    若p指向派生类对象，则调用派生类的虚函数
+class Base{
+public:
+  virtual void fun();
+};
+class Drived: public Base {
+public:
+  virtual void fun();
+};
+int main(void){
+  Drived obj;
+  Base * p=&obj;
+  p->fun(); //调用Derived中的虚函数fun()
+}
+
+多态的表现形式之二
+  派生类的对象可以赋值给基类引用
+  对于基类的引用，与上一条类似

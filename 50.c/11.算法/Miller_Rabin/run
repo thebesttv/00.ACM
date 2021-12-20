@@ -1,0 +1,9 @@
+#!/bin/bash
+./a.out
+mv ./out ./out1
+./a.out
+mv ./out ./out2
+./a.out
+mv ./out ./out3
+./a.out
+mv ./out ./out4

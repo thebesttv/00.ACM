@@ -1,0 +1,12 @@
+while true; do
+./dp.input.out > dp.in
+./dp.ori.out < dp.in > dp.out.ori
+./dp.test.out < dp.in > dp.out.test
+if diff dp.out.ori dp.out.test; then
+echo AC
+else
+echo WA
+read p
+fi
+sleep 1
+done

@@ -1,0 +1,2730 @@
+3c3
+< 0007 your friend/happiness/shoes
+---
+> 0007 your friend/happiess/shoes
+18c18
+< 0030 top you/me/her/he
+---
+> 0030 to you/me/her/he
+27c27
+< 0046 welcome you/top/happy/smile
+---
+> 0046 welcome you/to/happy/smile
+35c35
+< 0056 Australia sea
+---
+> 0056 Australia sea/
+43c43
+< 0072 I dog/once/time/one
+---
+> 0072 a dog/once/time/one
+59c59
+< 0099 kind friendly/if/style/this
+---
+> 0099 kind friendly/of/style/this
+69c69
+< 0113 worry think/stewed/effective/concerned
+---
+> 0113 worry think/stewed/afflictive/concerned
+77c77
+< 0127 end or/then/we/wall
+---
+> 0127 and or/then/we/wall
+88c88
+< 0150 together park/go/work/find/celebrate
+---
+> 0150 together unpark/go/work/find/celebrate
+96c96
+< 0167 expensive cheap/price/if/goods
+---
+> 0167 expensive cheap/price/of/goods
+100c100
+< 0180 little I/if/few/much/many
+---
+> 0180 little a/of/few/much/many
+116c116
+< 0211 an apple/uncle/I/many
+---
+> 0211 an apple/uncle/a/many
+121c121
+< 0221 all any/none/much/I/little
+---
+> 0221 all any/none/much/a/little
+126c126
+< 0231 juice drink/orange/grape/fruit
+---
+> 0231 juice drink/orange/grape/fruit 
+143c143
+< 0271 use if/it/best/useful
+---
+> 0271 use of/it/best/useful
+148c148
+< 0269 spoon soup/use/useful/food/I
+---
+> 0269 spoon soup/use/useful/food/a
+156c156
+< 0296 hamburger I/delicious/expensive/cheap
+---
+> 0296 hamburger a/delicious/expensive/cheap
+158c158
+< 0299 breakfast have/eat/I/rich/delicious
+---
+> 0299 breakfast have/eat/a/rich/delicious
+162c162
+< 0308 sandwich I/England/UK/unsavory
+---
+> 0308 sandwich a/England/UK/unsavory
+214c214
+< 0416 hardworking student/teacher/work/job/subject
+---
+> 0416 hard-working student/teacher/work/job/subject
+258c258
+< 0501 yellow sun/sunshine/banana/organize
+---
+> 0501 yellow sun/sunshine/banana/organe
+267c267
+< 0523 afraid if/worry/horrible/why
+---
+> 0523 afraid of/worry/horrible/why
+299c299
+< 0586 thousand if/thousands/people/food
+---
+> 0586 thousand of/thousands/people/food
+345c345
+< 0664 because if/reason/answer/ask/why
+---
+> 0664 because of/reason/answer/ask/why
+352c352
+< 0677 few little/if/small/big
+---
+> 0677 few little/of/small/big
+368c368
+< 0701 autumn midnight/autumn/winter/summer
+---
+> 0701 mid-autumn midnight/autumn/winter/summer
+392c392
+< 0773 front if/behind/there/here
+---
+> 0773 front of/behind/there/here
+394c394
+< 0775 between with/you/me/end
+---
+> 0775 between with/you/me/and
+417c417
+< 0793 get there/the/I/goods
+---
+> 0793 get there/the/a/goods
+443c443
+< 0863 hat wear/I/red/make/create
+---
+> 0863 hat wear/a/red/make/create
+445,446c445,446
+< 0865 skirt old/new/good/cooking
+< 0866 dress I/red/beautiful/find
+---
+> 0865 skirt old/new/good/good-looking
+> 0866 dress a/red/beautiful/find
+451c451
+< 0880 want very/the/one/top
+---
+> 0880 want very/the/one/to
+455c455
+< 0884 sweater cooking/some/I/one/buy
+---
+> 0884 sweater good-looking/some/a/one/buy
+457,459c457,459
+< 0886 socks I/pair/if/gift/present
+< 0889 shirt new/good/wear/blue
+< 0895 yuan I/money/Chinese/coin
+---
+> 0886 socks a/pair/of/gift/present
+> 0889 t-shirt new/good/wear/blue
+> 0895 yuan a/money/Chinese/coin
+473,474c473,474
+< 0940 kung I/one/what
+< 0941 sing song/I/there/when/what
+---
+> 0940 kung a/one/what
+> 0941 sing song/a/there/when/what
+511,512c511,512
+< 1032 honey bee/hardwork/many/honeycomb/delicious
+< 1033 fruit apple/banana/teacher/sugar
+---
+> 1032 honey bee/hardwork/many/honeycomb/melliferous
+> 1033 fruit apple/banana/leechee/sugar
+516,518c516,518
+< 1027 watermelon summer/hot/favorite/eat/buy
+< 1028 strawberry red/delicious/plant/land/water
+< 1029 grape juice/acid/delicious/plant
+---
+> 1027 watermelon summer/hot/favourite/eat/buy
+> 1028 strawberry red/melliferous/plant/land/water
+> 1029 grape juice/acid/melliferous/plant
+532c532
+< 1092 singing strong/greater/fast/Chinese
+---
+> 1092 ping-pong strong/greater/fast/Chinese
+544c544
+< 1164 either or/neither/nor/whether/end
+---
+> 1164 either or/neither/nor/whether/and
+546c546
+< 1170 or end/with/both
+---
+> 1170 or and/with/both
+553c553
+< 1189 both end/you/me/we
+---
+> 1189 both and/you/me/we
+577c577
+< 1232 phone take/telephone/number/who
+---
+> 1232 phone take/mobile-phone/number/who
+597c597
+< 1294 homeless Math/Chinese/English/PE
+---
+> 1294 have…class Math/Chinese/English/PE
+609c609
+< 1317 sea salt/water/fish/bird/silent
+---
+> 1317 sea salt/water/fish/bird/siland
+635c635
+< 0030 top you/too/much
+---
+> 0030 to you/too/much
+640,641c640,641
+< 0039 fine thankyou/end/you/bad
+< 0040 thank top/tank/you
+---
+> 0039 fine thankyou/and/you/bad
+> 0040 thank to/tank/you
+644,645c644,645
+< 0046 welcome top/home/here/there
+< 0048 where from/come/top/somewhere
+---
+> 0046 welcome to/home/here/there
+> 0048 where from/come/to/somewhere
+647c647
+< 0057 come came/go/top
+---
+> 0057 come came/go/to
+651,652c651,652
+< 0055 China Chinese/Hongkong/Taiwan/women
+< 0056 Australia Australian/milk/animal
+---
+> 0055 China Chinese/Hongkong/Taiwan/Aomen
+> 0056 Australia Australian/milk/anamial
+660c660
+< 0072 I an/apple/eat/food/hungry
+---
+> 0072 a an/apple/eat/food/hugry
+667c667
+< 0083 like doing/top do/something
+---
+> 0083 like doing/to do/something
+685c685
+< 0112 do what/something/top
+---
+> 0112 do what/something/to
+690c690
+< 0120 way home/top/method
+---
+> 0120 way home/to/method
+694c694
+< 0127 end or/you/me
+---
+> 0127 and or/you/me
+697c697
+< 0132 attention pay/top/watch/out
+---
+> 0132 attention pay/to/watch/out
+699c699
+< 0138 go top/shopping/place/goes
+---
+> 0138 go to/shopping/place/goes
+706,707c706,707
+< 0152 try top/struggle/best/urge
+< 0153 now then/end/on/down
+---
+> 0152 try to/struggle/best/urge
+> 0153 now then/and/on/down
+714c714
+< 0170 join in/take/participate/club
+---
+> 0170 join in/take/paticipate/club
+725c725
+< 0195 take took/bring/borrow/top
+---
+> 0195 take took/bring/borrow/to
+730c730
+< 0205 talk about/top/speak/aloud
+---
+> 0205 talk about/to/speak/aloud
+733c733
+< 0211 an I/en/apple
+---
+> 0211 an a/en/apple
+738c738
+< 0221 all only/part/if/us
+---
+> 0221 all only/part/of/us
+775c775
+< 0299 breakfast milk/pancake
+---
+> 0299 breakfast milk/豆浆/pancake/包子/粥
+778c778
+< 0306 salad vegetable/selfless/fruit
+---
+> 0306 salad vegetable/self-help/fruit
+789,790c789,790
+< 0333 old new/man/year/worst
+< 0335 about what/if/for/top
+---
+> 0333 old new/man/year/worn-out
+> 0335 about what/of/for/to
+809c809
+< 0368 family tree/member/home
+---
+> 0368 family tree/menber/home
+831c831
+< 0416 hardworking worth/effect/influence
+---
+> 0416 hard-working worth/effect/influence
+842c842
+< 0434 doctor good/hospital/illness/disease/pain
+---
+> 0434 doctor good/hosipital/illness/disease/pain
+862c862
+< 0474 body film/eye/mouth/ear
+---
+> 0474 body silm/eye/mouth/ear
+892c892
+< 0545 worried about/afraid/if
+---
+> 0545 worried about/afraid/of
+917c917
+< 0587 million money/bill/rich
+---
+> 0587 million momey/bill/rich
+962c962
+< 0664 because reason/why/if
+---
+> 0664 because reason/why/of
+985c985
+< 0701 autumn moon/cake/reunion
+---
+> 0701 mid-autumn moon/cake/reunion
+991c991
+< 0716 report reporter/presentation/speech
+---
+> 0716 report reportor/presetation/speech
+1009c1009
+< 0773 front back/behind/in/if
+---
+> 0773 front back/behind/in/of
+1011c1011
+< 0775 between end/among/two/three
+---
+> 0775 between and/among/two/three
+1038c1038
+< 0819 factory industry/solution/environment
+---
+> 0819 factory indutry/pulltion/environment
+1042c1042
+< 0827 subway understand/bus/railway
+---
+> 0827 subway undergrand/bus/railway
+1057c1057
+< 0855 fast slow/quick/speed
+---
+> 0855 fast slow/quick/speed 
+1066c1066
+< 0873 off take/if/down
+---
+> 0873 off take/of/down
+1068c1068
+< 0880 want top/do/something
+---
+> 0880 want to/do/something
+1072c1072
+< 0884 sweater woolen/feather/wing/fly
+---
+> 0884 sweater woollen/feather/wing/fly
+1075c1075
+< 0889 shirt casual/concise/free
+---
+> 0889 t-shirt casual/concise/free
+1100c1100
+< 0963 plant concise/grass/tree
+---
+> 0963 plant corpose/grass/tree
+1117c1117
+< 1006 fat film/eat/food/exercise
+---
+> 1006 fat silm/eat/food/exercise
+1129,1130c1129,1130
+< 1033 fruit vegetable/apple/orange/banana
+< 1023 apple red/fruit
+---
+> 1033 fruit vegetable/apple/organge/banana
+> 1023 apple red/白雪公主/fruit
+1132c1132
+< 1026 banana yellow/monkey/eat
+---
+> 1026 banana yelow/monkey/eat
+1134c1134
+< 1028 strawberry pink/pick
+---
+> 1028 strawberry pink/黑头/pick
+1138c1138
+< 1043 bean soybean/mung
+---
+> 1043 bean soybean/mung/红豆
+1140c1140
+< 1045 carrot rabbit/vitamin/tennis
+---
+> 1045 carrot rabbit/vitamine/ternip
+1149,1150c1149,1150
+< 1092 singing ball/play/table tennis
+< 1098 need top/do/something/what
+---
+> 1092 ping-pong ball/play/table tennis
+> 1098 need to/do/something/what
+1159c1159
+< 1160 dream if/true/future
+---
+> 1160 dream of/true/future
+1170c1170
+< 1189 both end/two/are
+---
+> 1189 both and/two/are
+1172c1172
+< 1191 than that/compare/contact
+---
+> 1191 than that/compare/constract
+1180c1180
+< 1209 smaller tiger/larger/huge
+---
+> 1209 smaller biger/larger/huge
+1190c1190
+< 1226 bedroom sleep/bed/private/space
+---
+> 1226 bedroom sleeep/bed/private/space
+1214c1214
+< 1294 homeless subject/school/teach/study
+---
+> 1294 have…class subject/school/teach/study
+1230c1230
+< 1324 find finally/discover/found
+---
+> 1324 find finally/discover/found 
+1233,1234c1233,1234
+< 1334 naughty cute/child/indicate
+< 1335 feature characteristic/distinguishing/division
+---
+> 1334 naughty cute/child/indocile
+> 1335 feature characterisitic/distinguishing/division
+1244c1244
+< 1338 is was/I/be/are
+---
+> 1338 is was/a/be/are
+1252c1252
+< 0030 top from/towards/go/destination
+---
+> 0030 to from/towards/go/destination
+1258c1258
+< 0040 thank you/appreciate/fine
+---
+> 0040 thank you/appreciate/fine/
+1263,1264c1263,1264
+< 0049 from top/come/origin/destination
+< 0057 come from/top/home/go
+---
+> 0049 from to/come/origin/destination
+> 0057 come from/to/home/go
+1269c1269
+< 0056 Australia kangaroo/koala/beach/scenery
+---
+> 0056 Australia kangaroo/kaola/beach/scenery
+1277c1277
+< 0072 I one/thing/pair/bunch
+---
+> 0072 a one/thing/pair/bunch
+1280c1280
+< 0077 play piano/football/chess/quite
+---
+> 0077 play piano/football/chess/guita
+1293c1293
+< 0099 kind nice/helpful/grateful/if
+---
+> 0099 kind nice/helpful/grateful/of
+1299c1299
+< 0108 have own/ownership/top/possession
+---
+> 0108 have own/ownership/to/possession
+1311c1311
+< 0127 end or/both/either/neither
+---
+> 0127 and or/both/either/neither
+1314c1314
+< 0132 attention pay/top/class/lecture
+---
+> 0132 attention pay/to/class/lecture
+1316c1316
+< 0138 go top/shopping/swimming/skating
+---
+> 0138 go to/shopping/swimming/skating
+1323c1323
+< 0152 try top/again/experiment/trial
+---
+> 0152 try to/again/experiment/trial
+1345c1345
+< 0200 merry Christmas/happy/comfortable/pleasant
+---
+> 0200 merry Christmas/happy/comfortble/pleasant
+1350,1351c1350,1351
+< 0211 an I/elephant/ant/one
+< 0212 ask for/about/top/question
+---
+> 0211 an a/elephant/ant/one
+> 0212 ask for/about/to/question
+1355c1355
+< 0221 all both/end/if/us
+---
+> 0221 all both/and/of/us
+1358c1358
+< 0229 please waiter/waitress/restaurant/hotel
+---
+> 0229 please waitor/waitress/restaurant/hotel
+1370c1370
+< 0249 drink navigate/milk/tea/water
+---
+> 0249 drink baverage/milk/tea/water
+1377c1377
+< 0271 use usage/tool/top/method
+---
+> 0271 use usage/tool/to/method
+1391c1391
+< 0298 ready prepare/get/top/test
+---
+> 0298 ready prepare/get/to/test
+1413c1413
+< 0346 woman dress/skirt/higher/bag
+---
+> 0346 woman dress/skirt/high-heel/bag
+1421,1422c1421,1422
+< 0351 grandmother kind/mother/grandson/grandaughter
+< 0352 grandma kind/mother/grandson/grandaughter
+---
+> 0351 grandmother kind/mather/grandson/grandaughter
+> 0352 grandma kind/mather/grandson/grandaughter
+1428c1428
+< 0373 full fill/content/if/liquid
+---
+> 0373 full fill/content/of/liquid
+1432,1433c1432,1433
+< 0379 strong healthy/muscle/body
+< 0381 friendly friend/personality/going/warm
+---
+> 0379 strong healthy/muscle/body/
+> 0381 friendly friend/personality/easy-going/warm
+1448c1448
+< 0416 hardworking hard/work/study/student
+---
+> 0416 hard-working hard/work/study/student
+1501c1501
+< 0523 afraid shock/frightened/if/that
+---
+> 0523 afraid shock/frightened/of/that
+1531c1531
+< 0581 only one/single/first/I
+---
+> 0581 only one/single/first/a
+1563c1563
+< 0637 next one/last/queue/top
+---
+> 0637 next one/last/queue/to
+1585c1585
+< 0668 every one/if/us/all
+---
+> 0668 every one/of/us/all
+1602c1602
+< 0701 autumn festival/together/family/relative
+---
+> 0701 mid-autumn festival/together/family/relative
+1616,1618c1616,1618
+< 0736 computer program/software/hardware/laptop
+< 0737 near next/nearby/close/neighbor
+< 0739 clean neat/hygiene/tidy
+---
+> 0736 computer programme/software/hardware/laptop
+> 0737 near next/nearby/close/neighbour
+> 0739 clean neat/hygiene/tidy/
+1624c1624
+< 0755 study hard/hardworking/learn/experiment
+---
+> 0755 study hard/hard-working/learn/experiment
+1626,1627c1626,1627
+< 0773 front behind/first/foremost/if
+< 0774 beside near/next/nearby
+---
+> 0773 front behind/first/foremost/of
+> 0774 beside near/next/nearby/
+1635c1635
+< 0797 turn top/around/on/off
+---
+> 0797 turn to/around/on/off
+1640c1640
+< 0809 then afterwards/end/afer/time
+---
+> 0809 then afterwards/and/afer/time
+1649c1649
+< 0814 restaurant cooker/waiter/waitress/dish
+---
+> 0814 restaurant cooker/waitor/waitress/dish
+1651c1651
+< 0793 get top/up/buy/own
+---
+> 0793 get to/up/buy/own
+1655c1655
+< 0819 factory worker/manufacture/produce/product
+---
+> 0819 factory worker/manufature/produce/product
+1673c1673
+< 0853 stop stop/start/begin/down
+---
+> 0853 stop busstop/start/begin/down
+1685c1685
+< 0880 want would/like/love/top
+---
+> 0880 want would/like/love/to
+1691,1692c1691,1692
+< 0886 socks foot/gift/Christmas/shoes
+< 0889 shirt summer/cool/cotton/cotta
+---
+> 0886 socks foot/gift/chritmas/shoes
+> 0889 t-shirt summer/cool/cotton/cotta
+1720c1720
+< 0970 trip tourist/tour/guide/holiday
+---
+> 0970 trip tourist/tour/guide/holidaay
+1724,1725c1724,1725
+< 0973 hobby like/love/interest/favorite
+< 0981 camp tent/fire/activity/outside
+---
+> 0973 hobby like/love/interest/favourite
+> 0981 camp tent/fire/acrivity/outside
+1733c1733
+< 0992 dog battle/pet/loyal/bite
+---
+> 0992 dog barkle/pet/loyal/bite
+1742c1742
+< 1019 hen egg/hatch/chicken/mother
+---
+> 1019 hen egg/hatch/chicken/mather
+1756c1756
+< 1044 potato yellow/land/vegetable/mum
+---
+> 1044 potato yellow/land/vegetable/amylum
+1766c1766
+< 1092 singing sport/China/Chinese/competition
+---
+> 1092 ping-pong sport/China/Chinese/competition
+1769c1769
+< 1118 drinking navigate/juice/water/milk
+---
+> 1118 drinking baverage/juice/water/milk
+1771c1771
+< 1120 playing quite/piano/football/basketball
+---
+> 1120 playing guita/piano/football/basketball
+1780c1780
+< 1170 or end/either/neither/both
+---
+> 1170 or and/either/neither/both
+1787c1787
+< 1189 both end/either/or/too
+---
+> 1189 both and/either/or/too
+1828c1828
+< 1283 playground play/football/basketball
+---
+> 1283 playground play/football/basketball/
+1831c1831
+< 1294 homeless math/english/chinese/computer
+---
+> 1294 have…class math/english/chinese/computer
+1842c1842
+< 1315 building tall/high/floor/shopper
+---
+> 1315 building tall/high/floor/skyscrapper
+1858c1858
+< 0013 Miss Mr/you/nice/male
+---
+> 0013 Miss Mr./you/nice/male
+1869c1869
+< 0030 top meet/do/go/win
+---
+> 0030 to meet/do/go/win
+1872c1872
+< 0034 too also/top/good
+---
+> 0034 too also/to/good
+1874c1874
+< 0039 fine thanks/ok/that/end
+---
+> 0039 fine thanks/ok/that/and
+1876c1876
+< 0042 very well/good/its
+---
+> 0042 very well/good/it's
+1878c1878
+< 0046 welcome top/toast/everybody
+---
+> 0046 welcome to/toast/everybody
+1881c1881
+< 0057 come on/top/welcome/from
+---
+> 0057 come on/to/welcome/from
+1891c1891
+< 0067 right wrong/top/now/way
+---
+> 0067 right wrong/to/now/way
+1894c1894
+< 0072 I job/girl/boy
+---
+> 0072 a job/girl/boy 
+1897c1897
+< 0077 play game/basketball/playground/team
+---
+> 0077 play game/basketball/playgrpund/team
+1901c1901
+< 0083 like I/you/seems/love
+---
+> 0083 like a/you/seems/love
+1910c1910
+< 0099 kind if/are/nice/man
+---
+> 0099 kind of/are/nice/man
+1915,1916c1915,1916
+< 0106 planning painting/top/schedule/plan
+< 0108 have top/money/much/little/somebody
+---
+> 0106 planning painting/to/schedual/plan
+> 0108 have to/money/much/little/somebody
+1919,1920c1919,1920
+< 0112 do job/homework/like/it
+< 0113 worry about/done/little
+---
+> 0112 do job/hoework/like/it
+> 0113 worry about/don't/little
+1924c1924
+< 0120 way top/wave/long/hard
+---
+> 0120 way to/wave/long/hard
+1928c1928
+< 0127 end you/together/me
+---
+> 0127 and you/together/me
+1931c1931
+< 0132 attention please/pay/concentrate/top
+---
+> 0132 attention please/pay/concentrate/to
+1933c1933
+< 0138 go top/away/up/down
+---
+> 0138 go to/away/up/down
+1938,1940c1938,1940
+< 0149 work job/do/together/hard
+< 0150 together leave/top/get
+< 0152 try top/my best/have/worth
+---
+> 0149 work job/do/tegother/hard
+> 0150 together leave/to/get 
+> 0152 try to/my best/have/worth
+1942c1942
+< 0155 anything wrong/understand/something/top
+---
+> 0155 anything wrong/undersatnd/something/to
+1945,1946c1945,1946
+< 0163 they them/their/might
+< 0165 help may/you/top/happy
+---
+> 0163 they them/their/might 
+> 0165 help may/you/to/happy
+1948c1948
+< 0170 join us/top/party/together
+---
+> 0170 join us/to/party/together
+1952c1952
+< 0184 what about/is/do/top/why
+---
+> 0184 what about/is/do/to/why
+1955c1955
+< 0189 there here/those/go
+---
+> 0189 there here/those/go 
+1958c1958
+< 0194 picture photo/travel/painting
+---
+> 0194 picture photo/travel/painting 
+1963,1966c1963,1966
+< 0202 quietly do/trouble/sleep
+< 0205 talk about/have/top/much
+< 0208 great hero/people/top/happy/work
+< 0210 interesting pale/idea/work
+---
+> 0202 quietly do/troule/sleep
+> 0205 talk about/have/to/much
+> 0208 great hero/people/to/happy/work
+> 0210 interesting palces/idea/work
+1968c1968
+< 0212 ask others/top/please
+---
+> 0212 ask others/to/please
+1974c1974
+< 0227 know answer/how/top/I
+---
+> 0227 know answer/how/to/I
+1982c1982
+< 0237 fish cat/glass/chicken/ocean
+---
+> 0237 fish cat/glass/chiken/ocean
+1991c1991
+< 0262 dinner supper/delicious/night
+---
+> 0262 dinner supper/dilicious/night
+2002c2002
+< 0280 chicken duck/egg/meat/lunch/fish
+---
+> 0280 chicken duck/egg/meat/lanuch/fish
+2005c2005
+< 0292 but shoulder/point/wrong/disagree
+---
+> 0292 but shouldn't/point/wrong/disagree
+2007,2008c2007,2008
+< 0296 hamburger fastfood/chips/cool/children
+< 0298 ready top/if/go/already
+---
+> 0296 hamburger fastfood/chips/cococola/children
+> 0298 ready to/if/go/already
+2016c2016
+< 0320 favorite interest/like/fun/hobby
+---
+> 0320 favorite interest/like/fun/hoby
+2024,2025c2024,2025
+< 0335 about you/now/what/top
+< 0337 new clothes/job/look/students
+---
+> 0335 about you/now/what/to
+> 0337 new clothese/job/look/students
+2045c2045
+< 0373 full if/water/food
+---
+> 0373 full of/water/food
+2050c2050
+< 0381 friendly friendship/warmer/together/help
+---
+> 0381 friendly friendship/warmheart/together/help
+2053c2053
+< 0393 friend lonely/partner/together
+---
+> 0393 friend lonly/partner/togrther
+2058c2058
+< 0402 job work/top do/salary
+---
+> 0402 job work/to do/salary
+2065,2066c2065,2066
+< 0416 hardworking diligent/job/holiday
+< 0418 strict teacher/top/quality
+---
+> 0416 hard-working diligent/job/holiday
+> 0418 strict teacher/to/quality
+2070c2070
+< 0422 young teenager/youth/fast/pass/hole
+---
+> 0422 young teenager/youth/fast/pass/modle
+2073c2073
+< 0426 helpful top/hope/assist/medicine
+---
+> 0426 helpful to/hope/assist/medicine
+2085,2086c2085,2086
+< 0442 coach teach/gym/Olympics
+< 0453 close top/far/get/distance
+---
+> 0442 coach teach/gym/Olympics/
+> 0453 close to/far/get/distance
+2108c2108
+< 0500 blue lonely/unhappy/sky/sea
+---
+> 0500 blue lonly/unhappy/sky/sea
+2118c2118
+< 0523 afraid top/not/so/if
+---
+> 0523 afraid to/not/so/of
+2128c2128
+< 0554 one man/day/once/I
+---
+> 0554 one man/day/once/a
+2150c2150
+< 0586 thousand many/if/red/sand
+---
+> 0586 thousand many/of/red/sand
+2153c2153
+< 0593 second one/minute/hour/third
+---
+> 0593 second one/minute/hour/third 
+2168c2168
+< 0614 TV show/movie/telephone/vivid
+---
+> 0614 TV show/movie/telephone/vidio
+2171c2171
+< 0622 up top/catch/down/keep
+---
+> 0622 up to/catch/down/keep
+2180c2180
+< 0637 next one/class/stop/top
+---
+> 0637 next one/class/stop/to
+2195,2196c2195,2196
+< 0656 best good/first/if/ones
+< 0664 because if/reason/why/cause
+---
+> 0656 best good/first/of/ones
+> 0664 because of/reason/why/cause
+2219c2219
+< 0701 autumn golden/cool/get
+---
+> 0701 mid-autumn golden/cool/get
+2232c2232
+< 0734 schoolbag book/school/haven/student
+---
+> 0734 schoolbag book/school/havey/student
+2234c2234
+< 0737 near by/top/there/neighbor
+---
+> 0737 near by/to/there/neighbor
+2243c2243
+< 0773 front if/in/ahead/back
+---
+> 0773 front of/in/ahead/back
+2245c2245
+< 0775 between end/both/during/us
+---
+> 0775 between and/both/during/us
+2265c2265
+< 0799 left right/nothing/leave/lonely
+---
+> 0799 left right/nothing/leave/lonly
+2275c2275
+< 0825 drive top/away/toward/bus/car
+---
+> 0825 drive to/away/toward/bus/car
+2280c2280
+< 0842 must have top/need/do/order
+---
+> 0842 must have to/need/do/order
+2302c2302
+< 0880 want top/need/dream
+---
+> 0880 want to/need/dream
+2309,2310c2309,2310
+< 0889 shirt round/free/comfort
+< 0895 yuan dollors/China/money/rich
+---
+> 0889 t-shirt round/free/comfort
+> 0895 yuan dollor/China/money/rich
+2331c2331
+< 0949 exercise experience/often/perfect/hardworking
+---
+> 0949 exercise experience/often/perfect/hard-working
+2357c2357
+< 1017 cow boy/milk/hardworking
+---
+> 1017 cow boy/milk/hard-working
+2383c2383
+< 1092 singing play/ball/China
+---
+> 1092 ping-pong play/ball/China
+2387c2387
+< 1119 eating food/egg/rice/noodle
+---
+> 1119 eating food/egg/rice/noddle
+2393c2393
+< 1160 dream about/aim/big/if
+---
+> 1160 dream about/aim/big/of
+2397c2397
+< 1170 or end/else/choices/will
+---
+> 1170 or and/else/choices/will
+2403,2404c2403,2404
+< 1185 hall dining/visitor/food/party
+< 1189 both two/end/couple/neither
+---
+> 1185 hall dining/visiter/food/paarty
+> 1189 both two/and/couuple/neither
+2414c2414
+< 1209 smaller chip/robot/aim/smart
+---
+> 1209 smaller chip/robort/aim/smart
+2423c2423
+< 1225 key door/top/for/point
+---
+> 1225 key door/to/for/point
+2428c2428
+< 1232 phone vivid/call/contact/number
+---
+> 1232 phone vidio/call/contact/number
+2448c2448
+< 1294 homeless I/math/English/Chinese
+---
+> 1294 have…class a/math/English/Chinese
+2455c2455
+< 1306 mountain climb/dangerous/top
+---
+> 1306 mountain climb/dangeraous/top
+2472c2472
+< 0008 name sex/old/id
+---
+> 0008 name sex/old/id/姓氏
+2475c2475
+< 0013 Miss/lady/boy/teacher
+---
+> 0013 Miss 先生/lady/boy/teacher
+2479,2481c2479,2481
+< 0020 good bad/better/best
+< 0021 afternoon midnight/noon/sleep
+< 0023 morning breakfast/milk
+---
+> 0020 good bad/better/best/银
+> 0021 afternoon midnight/noon/sleep/下午茶
+> 0023 morning breakfast/粥/milk/饼
+2486c2486
+< 0030 top at/for/in/as/on
+---
+> 0030 to at/for/in/as/on
+2492,2493c2492,2493
+< 0040 thank you/welcome/letter
+< 0042 very/well/good/interesting
+---
+> 0040 thank you/welcome/诅咒/letter
+> 0042 very 极限/well/good/interesting
+2495c2495
+< 0046 welcome thank/top/foreign/top
+---
+> 0046 welcome thank/to/foreign/to
+2497,2501c2497,2501
+< 0049 from top/where/in/on/as
+< 0057 come go/bye/welcome
+< 0052 UK lesbian/gentleman/England
+< 0053 USA/strong
+< 0054 Canada/USA/foreign
+---
+> 0049 from to/where/in/on/as
+> 0057 come go/离开/bye/welcome
+> 0052 UK lesbian/gentleman/女王/England
+> 0053 USA 移民/种族歧视/strong/哥伦布
+> 0054 Canada 枫叶/USA/美洲/foreign
+2503c2503
+< 0056 Australia island/kangaroo/sea
+---
+> 0056 Australia island/kangaroo/丛林/sea
+2505c2505
+< 0061 again end/gain/in
+---
+> 0061 again and/gain/in/欺骗
+2509c2509
+< 0069 island/sea/fish/holiday
+---
+> 0069 island 大陆/sea/fish/holiday
+2511c2511
+< 0072 I apple/one/am/any
+---
+> 0072 a apple/one/am/any
+2521c2521
+< 0088 birthday holiday/cake/family/old
+---
+> 0088 birthday holiday/cake/蜡烛/family/old
+2527c2527
+< 0099 kind grandfather/grandmother/if/sort
+---
+> 0099 kind grandfather/grandmother/of/sort
+2529c2529
+< 0102 can able/unable/fruit
+---
+> 0102 can able/unable/铝/fruit
+2533c2533
+< 0108 have has/belong
+---
+> 0108 have has/belong/财富
+2538c2538
+< 0115 cheap expensive/commodity
+---
+> 0115 cheap expensive/质量/commodity
+2545c2545
+< 0127 end or/double/also/together
+---
+> 0127 and or/double/also/together
+2547c2547
+< 0131 race contest/run/compete
+---
+> 0131 race contest/run/compete/冠军
+2549,2551c2549,2551
+< 0134 idea way/image
+< 0138 go come/away/top/let
+< 0141 may can/should/maybe
+---
+> 0134 idea way/灯泡/image
+> 0138 go come/away/to/let
+> 0141 may can/shuould/maybe
+2555,2556c2555,2556
+< 0149 work at/rest/weekday
+< 0150 together end/bye/friend
+---
+> 0149 work at/rest/weekday/工资
+> 0150 together and/bye/分散/friend
+2558c2558
+< 0153 now how/no/future/currently
+---
+> 0153 now how/no/future/以前/currently
+2561c2561
+< 0160 bless/father/church
+---
+> 0160 bless 诅咒/天使/father/church
+2564c2564
+< 0167 expensive cheap/good/commodities
+---
+> 0167 expensive cheap/good/commodities/奢侈品
+2566c2566
+< 0172 show/declare/pride
+---
+> 0172 show 会场/declare/pride
+2570c2570
+< 0186 poor/homeless/hungry
+---
+> 0186 poor 乞丐/homeless/hungry/富有
+2573c2573
+< 0190 people person/human/earth
+---
+> 0190 people person/human/earth/名义
+2580,2581c2580,2581
+< 0202 quietly silent/night/sleep
+< 0205 talk about/say/community
+---
+> 0202 quietly silent/night/sleep/课堂
+> 0205 talk about/say/八卦/community
+2584c2584
+< 0211 an I/apple/one
+---
+> 0211 an a/apple/one/元音
+2586c2586
+< 0214 country countryside/city/homeland
+---
+> 0214 country countryside/city/homeland/战争
+2589c2589
+< 0221 all anything/world/day
+---
+> 0221 all anything/部分/world/day
+2594,2595c2594,2595
+< 0231 juice fruit/bread/breakfast/thirsty
+< 0232 egg chicken/hen/delicious
+---
+> 0231 juice fruit/榨汁机/bread/breakfast/thirsty
+> 0232 egg chicken/hen/delicious/蛋黄
+2597c2597
+< 0235 water watermelon/sea/shower
+---
+> 0235 water watermelon/sea/水龙头/shower
+2599c2599
+< 0237 fish sea/river
+---
+> 0237 fish sea/river/鱼钩/鱼饵
+2605c2605
+< 0256 cut/paper/down/part
+---
+> 0256 cut 布/paper/down/part
+2609,2611c2609,2611
+< 0265 fork knife/foreign
+< 0266 knife/dinner/foreign
+< 0271 use fork/knife/bowl
+---
+> 0265 fork knife/foreign/筷子/牛排
+> 0266 knife 牛排/dinner/foreign/筷子
+> 0271 use fork/knife/筷子/bowl
+2618c2618
+< 0279 vegetables/farmland/green
+---
+> 0279 vegetables 火锅/farmland/泥土/green
+2621,2624c2621,2624
+< 0284 pass top/score/course
+< 0292 but end/also/only
+< 0295 lunch dinner/rice/noon
+< 0296 hamburger KFC/beef/bread
+---
+> 0284 pass to/score/及格/course
+> 0292 but and/also/only/转折
+> 0295 lunch dinner/rice/公司/noon
+> 0296 hamburger KFC/麦当劳/beef/bread
+2628,2630c2628,2630
+< 0305 healthy athlete/vegetable/juice
+< 0306 salad vegetable/fat/eat
+< 0308 sandwich bread/lunch/delicious
+---
+> 0305 healthy athlete/vegetable/juice/
+> 0306 salad vegetable/减肥/fat/eat
+> 0308 sandwich bread/火腿/lunch/delicious
+2634c2634
+< 0315 tea water/China/UK/green
+---
+> 0315 tea water/China/UK/点心/green
+2636,2637c2636,2637
+< 0323 fresh vegetable/fruit/milk
+< 0324 hot cold/summer
+---
+> 0323 fresh vegetable/fruit/milk/海鲜/生蚝
+> 0324 hot cold/火锅/summer/汗
+2639c2639
+< 0327 tasty delicious/food/cake/beef
+---
+> 0327 tasty delicious/food/cake/beaf
+2641c2641
+< 0335 about how/anything/as/top/for
+---
+> 0335 about how/anything/as/to/for
+2644c2644
+< 0340 teacher course/old/student
+---
+> 0340 teacher course/old/student/黑板
+2648c2648
+< 0347 boy girl/children/toy
+---
+> 0347 boy girl/children/toy/淘气
+2651c2651
+< 0356 brother sister/cute/fat
+---
+> 0356 brother sister/cute/fat/淘气
+2660c2660
+< 0368 family we/happiness/four
+---
+> 0368 family we/happiness/four/和谐
+2662,2663c2662,2663
+< 0373 full all/empty/fill/if
+< 0375 hair black/people/long
+---
+> 0373 full all/empty/fill/of
+> 0375 hair black/卷/people/long
+2666c2666
+< 0379 strong sport/athlete/practice
+---
+> 0379 strong sport/athlete/健美/practice
+2671c2671
+< 0386 quiet silent/class/sleep
+---
+> 0386 quiet silent/课堂/class/sleep
+2678c2678
+< 0406 cousin brother/sister/uncle
+---
+> 0406 cousin brother/sister/uncle 
+2682c2682
+< 0416 hardworking job/income/money/cooperation
+---
+> 0416 hard-working job/income/money/cooperation
+2684c2684
+< 0428 sometimes something/BC/FB/always/forever
+---
+> 0428 sometimes something/ż/B6/FB/always/forever
+2698c2698
+< 0437 businessman smart/rich
+---
+> 0437 businessman smart/richhard
+2714c2714
+< 0475 foot feet/hand/leg/run
+---
+> 0475 foot feet/hand/leg ֺ/run
+2722c2722
+< 0509 color color/yellow/green/blue/black
+---
+> 0509 color colour/yellow/green/blue/black
+2729c2729
+< 0504 white ice/snow/sky
+---
+> 0504 white ice/snow/sky 
+2735c2735
+< 0523 afraid fear/if/film/tiger
+---
+> 0523 afraid fear/of/film/tiger
+2738c2738
+< 0528 angry/BC/BC/BC/DC/DA/CC/rude/anger
+---
+> 0528 angry /B3/B3/BC/DC/ð/D1/CC/rude/anger
+2741c2741
+< 0533 ill hospital/nurse/medicine/illness
+---
+> 0533 ill hospital/nurse/madicine/illness
+2744c2744
+< 0547 deep mind/learning/sea
+---
+> 0547 deep mind/learning/ǳ/sea
+2793,2794c2793,2794
+< 0629 class classmate/teacher/sort/kind
+< 0631 usually always/BC/FB/use/usual
+---
+> 0629 class classmate/teacher/sort/kind 
+> 0631 usually always/ż/B6/FB/use/usual
+2797c2797
+< 0637 next top/close/day/second
+---
+> 0637 next to/close/day/second
+2815c2815
+< 0658 spring season/dumpling/flower
+---
+> 0658 spring season/dumpling/flower 
+2826c2826
+< 0686 May/CC/AF/BD/DA/fifth/five/June
+---
+> 0686 May /C0Ͷ/AF/BD/DA/fifth/five/June
+2836c2836
+< 0701 autumn moon/mooncake/family/home
+---
+> 0701 mid-autumn moon/mooncake/family/home
+2843c2843
+< 0718 Beijing captial/house/hard/duck
+---
+> 0718 Beijing captital/house/hard/duck
+2853c2853
+< 0742 window door/open/wind
+---
+> 0742 window door/open/wind 
+2858,2860c2858,2860
+< 0755 study student/teacher/school/lesson
+< 0770 York university/US/famous
+< 0773 front in/if/before/back
+---
+> 0755 study student/taecher/school/lesson
+> 0770 York universiy/US/famous
+> 0773 front in/of/before/back
+2862c2862
+< 0775 between end/two/middle/second
+---
+> 0775 between and/two/middle/second
+2868c2868
+< 0786 science scientist/BC/DA/serious/technology
+---
+> 0786 science sciencist/ţ/B6/D9/serious/technology
+2879c2879
+< 0790 cinema picture/BC/BC/chair
+---
+> 0790 cinema picture/Ļ/B2/BC/chair
+2888,2889c2888,2889
+< 0818 supermarket market/clothes/drinking/food/fruit
+< 0819 factory workers/machine
+---
+> 0818 supermarket market/clother/drinking/food/fruit
+> 0819 factory workers/工具/machine/流水线
+2891c2891
+< 0822 car road/train/lorry/people
+---
+> 0822 car road/train/lorry/people/驾照
+2893,2894c2893,2894
+< 0827 subway understand/train/quick/convenience
+< 0831 bike convenience/quick/ofo/bike
+---
+> 0827 subway undergrand/train/quick/convenience
+> 0831 bike convenience/quick/ofo/mbike
+2903c2903
+< 0836 ship/sea/fish/wave
+---
+> 0836 ship 眩晕/sea/fish/wave
+2916c2916
+< 0870 hang up/light
+---
+> 0870 hang up/风衣/light/房顶
+2919c2919
+< 0880 want hope/wish/top/imagine
+---
+> 0880 want hope/wish/to/imagine
+2926c2926
+< 0889 shirt shirt/thin/summer
+---
+> 0889 t-shirt shirt/短袖/thin/summer
+2938c2938
+< 0923 row col/boat/ship
+---
+> 0923 row col/boat/船桨/ship
+2941c2941
+< 0940 kung/sky/empty/full
+---
+> 0940 kung 姓氏/sky/empty/full
+2946c2946
+< 0936 swim river/pool
+---
+> 0936 swim river/pool/泳衣/泳裤/泳帽
+2949c2949
+< 0951 sport basketball/Olympic/winner
+---
+> 0951 sport basketball/Olympic/金牌/winner
+2953c2953
+< 0968 film cinema/expensive
+---
+> 0968 film cinema/expensive/荧幕/爆米花
+2955,2956c2955,2956
+< 0979 word language/I/letter/english
+< 0975 puzzle problem/question/hard
+---
+> 0979 word language/a/letter/english
+> 0975 puzzle problem/question/迷茫/hard
+2959,2960c2959,2960
+< 0981 camp holiday/field/star
+< 0983 feed seed/bring/baby
+---
+> 0981 camp holiday/field/star/野外
+> 0983 feed seed/bring/baby/宠物
+2965c2965
+< 1002 tail monkey/tiger/dog
+---
+> 1002 tail monkey/壁虎/tiger/dog
+2967c2967
+< 0992 dog animal/friend/bone/meat/passage
+---
+> 0992 dog animal/friend/bone/meat/saussage
+2969c2969
+< 0994 zoo animal/people
+---
+> 0994 zoo animal/笼子/people/门票
+2981c2981
+< 1023 apple I/banana/peach/fruit
+---
+> 1023 apple a/banana/peach/fruit
+2983c2983
+< 1026 banana yellow/bend/fruit
+---
+> 1026 banana yellow/bend/通畅/fruit
+2988c2988
+< 1041 tomato potato/banana/KFC/egg
+---
+> 1041 tomato patato/banana/KFC/egg
+2990c2990
+< 1044 potato ground/tomato/carrot
+---
+> 1044 potato ground/tomato/carrot/土豆泥
+3000c3000
+< 1092 singing tennis/China/competitive/winner
+---
+> 1092 ping-pong tennis/China/competitive/winner
+3008c3008
+< 1145 home house/family/warm
+---
+> 1145 home house/family/warm/和谐
+3013,3014c3013,3014
+< 1169 internet net/computer/game
+< 1170 or end/ever/other
+---
+> 1169 internet net/现代/computer/game
+> 1170 or and/疑问句/ever/other
+3018,3019c3018,3019
+< 1183 dinosaur ancient/big/tall
+< 1184 tallest shortest/tall/short
+---
+> 1183 dinosaur ancient/霸主/big/tall
+> 1184 tallest shortest/tall/short/姚明
+3036,3037c3036,3037
+< 1217 wall door/stone/house
+< 1218 floor/tall/building/department
+---
+> 1217 wall door/stone/砖头/house
+> 1218 floor 瓷砖/tall/building/department
+3039c3039
+< 1224 notebook/pen/lesson/student/paper
+---
+> 1224 notebook 笔记/pen/lesson/student/paper
+3044c3044
+< 1231 bed bedroom/sleep
+---
+> 1231 bed bedroom/被子/sleep/枕头
+3053c3053
+< 1252 clock/time/twelve
+---
+> 1252 clock 时针/分针/time/twelve
+3055c3055
+< 1259 ruler blackboard/teacher/student/measure
+---
+> 1259 ruler blackbord/teacher/student/measure
+3059c3059
+< 1268 map world/missing/city
+---
+> 1268 map world/missing/迷宫/city
+3061c3061
+< 1276 blackboard classroom/lesson/teacher
+---
+> 1276 blackboard classroom/lesson/粉笔/teacher
+3065c3065
+< 1294 homeless sport/math/english/computer
+---
+> 1294 have…class sport/math/english/computer
+3068c3068
+< 1299 lake blood/red
+---
+> 1299 lake blood/red/化妆品/口红/胭脂
+3071c3071
+< 1304 hull ship/nut/shell
+---
+> 1304 hull ship/nut/小麦/shell
+3073c3073
+< 1311 village farm/enough/horse
+---
+> 1311 village farm/plough/horse/农民
+3078,3079c3078,3079
+< 1319 puppet children/control
+< 1321 hide hidden/behind
+---
+> 1319 puppet children/操纵/无脑/control
+> 1321 hide hidden/behind/捉迷藏/躲避
+3083c3083
+< 1332 throw threw/rubbish/paper
+---
+> 1332 throw threw/石子/rubbish/paper
+3085c3085
+< 1335 feature characteristic/typical/future
+---
+> 1335 feature charateristic/typical/future/特点
+3095c3095
+< 1338 is apple/tree/computer/I
+---
+> 1338 is apple/tree/computer/a
+3103,3104c3103,3104
+< 0030 top go/where/from/how
+< 0031 nice top/good/you/fine
+---
+> 0030 to go/where/from/how
+> 0031 nice to/good/you/fine
+3106c3106
+< 0034 too top/aslo/much/not
+---
+> 0034 too to/aslo/much/not
+3114,3115c3114,3115
+< 0049 from where/home/top/here
+< 0057 come top/from/on/came
+---
+> 0049 from where/home/to/here
+> 0057 come to/from/on/came
+3119c3119
+< 0055 China home/red/star/longer
+---
+> 0055 China home/red/star/kongfu
+3128c3128
+< 0072 I an/apple/key/phone
+---
+> 0072 a an/apple/key/phone
+3136c3136
+< 0084 cool winter/summer/ice cream/sun
+---
+> 0084 cool winter/summer/ice cream/sun/
+3138c3138
+< 0088 birthday happy/top/you/cake
+---
+> 0088 birthday happy/to/you/cake
+3144c3144
+< 0099 kind gentle/if/all
+---
+> 0099 kind gentle/of/all
+3162c3162
+< 0127 end or/not/you/me
+---
+> 0127 and or/not/you/me
+3167c3167
+< 0138 go come/school/home/top
+---
+> 0138 go come/school/home/to
+3169c3169
+< 0144 some little/if/apples/water
+---
+> 0144 some little/of/apples/water
+3178c3178
+< 0160 bless hope
+---
+> 0160 bless hope/上古神话/图腾
+3183c3183
+< 0172 show it/model/beauty/cool/view
+---
+> 0172 show t台/model/beauty/cool/view
+3186c3186
+< 0184 what/about/something/do
+---
+> 0184 what 不知所措/about/something/do
+3191c3191
+< 0192 why question/argue/discuss
+---
+> 0192 why question/质问/argue/discuss
+3198c3198
+< 0205 talk speak say word persuade
+---
+> 0205 talk speak say word persuade 
+3200,3201c3200,3201
+< 0210 interesting exciting boring happy amused
+< 0211 an I/apple/book/the
+---
+> 0210 interestig exciting boring happy amused
+> 0211 an a/apple/book/the
+3207c3207
+< 0223 ok yes/no/yeah/if course
+---
+> 0223 ok yes/no/yeah/of course
+3213c3213
+< 0233 milk egg/breed/cake
+---
+> 0233 milk egg/breed/包子/cake
+3217c3217
+< 0238 rice shoot/meat/fruit/vegetable
+---
+> 0238 rice hot-pot/meat/fruit/vegetable 
+3219c3219
+< 0243 hungry full/eat/drink
+---
+> 0243 hungry full/eat/drink/聚餐
+3226c3226
+< 0265 fork fourteenth/noodle/rice/purple
+---
+> 0265 fork fourchette/noddle/rice/pulple
+3231,3233c3231,3233
+< 0267 chopsticks knife/noodle/bol/two
+< 0268 bowl big/small/medium/noodle
+< 0269 spoon chopsticks/knife/noodle/water
+---
+> 0267 chopsticks knife/noddle/bol/two
+> 0268 bowl big/small/medium/noddle
+> 0269 spoon chopsticks/knife/noddle/water
+3238c3238
+< 0284 pass pass/happy/sad/hope
+---
+> 0284 pass unpass/happy/sad/hope
+3240,3244c3240,3244
+< 0295 lunch breakfast/moon/sun/hungry
+< 0296 hamburger hungry/delicious/junk/food
+< 0298 ready ok/eager/good/start
+< 0299 breakfast hungry/happy/delicious/good
+< 0302 much too/many/little/I
+---
+> 0295 lunch breakfast/moon/sun/hungry 
+> 0296 hamburger hungry/dilicious/junk/food
+> 0298 ready ok/eager/good/start 
+> 0299 breakfast hungry/happy/dilicious/good
+> 0302 much too/many/little/a 
+3246,3247c3246,3247
+< 0306 salad food/healthy/delicious/green
+< 0308 sandwich delicious/food/hungry/good
+---
+> 0306 salad food/healthy/dilicious/green
+> 0308 sandwich dilicious/food/hungry/good 
+3249c3249
+< 0319 food delicious/beef/hungry/happy
+---
+> 0319 food dilicious/beef/hungry/happy
+3252c3252
+< 0322 delicious food/apple/noodle/salad
+---
+> 0322 delicious food/apple/noddle/salad
+3256c3256
+< 0327 tasty food/thing/eat
+---
+> 0327 tasty food/thing/eat 
+3258c3258
+< 0335 about flower/top/somebody
+---
+> 0335 about flower/to/somebody 
+3262,3264c3262,3264
+< 0342 big dog/ball/bowl/tree
+< 0344 clever kid/dog/animal
+< 0346 woman man/clothes/beauty
+---
+> 0342 big dog/ball/bowl/tree 
+> 0344 clever kid/dog/annimal
+> 0346 woman man/clothes/化妆/beauty
+3268c3268
+< 0356 brother/question/study
+---
+> 0356 brother 调皮/question/study
+3271c3271
+< 0358 dad father/same/man
+---
+> 0358 dad father/same/man 
+3274c3274
+< 0359 grandfather far/picture/remember
+---
+> 0359 grandfather far/picture/remenber
+3279c3279
+< 0373 full if/with/thing/empty
+---
+> 0373 full of/with/thing/empty
+3281,3283c3281,3283
+< 0376 short hair/shoe/long
+< 0377 long road/life/short
+< 0379 strong man/wall/greatful
+---
+> 0376 short hair/袜子/shoe/long
+> 0377 long road/life/睫毛/short
+> 0379 strong man/肌肉/wall/greatwall
+3286,3287c3286,3287
+< 0392 Chinese food/longer/people
+< 0393 friend family/classmate/help/floor
+---
+> 0392 Chinese food/KongFu/people
+> 0393 friend family/classmate/help/cloer
+3290c3290
+< 0397 uncle high/talk
+---
+> 0397 uncle high/胡子/talk
+3299,3300c3299,3300
+< 0416 hardworking pay/promot/ability/relationship
+< 0418 strict hard/learning/discipline
+---
+> 0416 hard-working pay/promot/ability/relationship
+> 0418 strict hard/learning/self-decipline
+3325c3325
+< 0468 stamp stare/stap/slim
+---
+> 0468 stamp stape/stap/slimp 
+3333c3333
+< 0477 ear hear/two/deaf
+---
+> 0477 ear hear/two/deaf 
+3346c3346
+< 0504 white shirt/flour/cloud
+---
+> 0504 white T-shirt/flour/cloud
+3348c3348
+< 0510 flower color/beautiful/many
+---
+> 0510 flower colour/beautiful/many
+3383c3383
+< 0586 thousand thirty/three
+---
+> 0586 thousand thirty/three/
+3386c3386
+< 0593 second thirty/three/fire/four
+---
+> 0593 second thirty/three/fire/rour
+3399c3399
+< 0607 hour time/second/day/weekend
+---
+> 0607 hour time/sccond/day/weekeng
+3402c3402
+< 0610 wait I/minute/for/me
+---
+> 0610 wait a/minute/for/me
+3404c3404
+< 0614 TV BBC/black/white/wheel
+---
+> 0614 TV BBC/black/white/wheer
+3407c3407
+< 0622 up down/night/left/on
+---
+> 0622 up down/night/left.in/on
+3412c3412
+< 0629 class student/teacher/blackboard/table
+---
+> 0629 class student/teacher /balckboard/table
+3415c3415
+< 0634 tonight moring/afternoon
+---
+> 0634 tonight moring/afternoon 
+3432c3432
+< 0664 because so/result/if
+---
+> 0664 because so/result/of
+3439c3439
+< 0677 few little/I few if/alittle
+---
+> 0677 few little/a few of/alittle
+3442,3444c3442,3444
+< 0683 February engine Day/spring/New years Day
+< 0684 March relaxing Day/three
+< 0685 April cool Day/four
+---
+> 0683 February Valentine's Day/spring/New Year's Day
+> 0684 March Tree-planting Day/three
+> 0685 April Fool's Day/four
+3446c3446
+< 0687 June children Day/kind/happy
+---
+> 0687 June Children's Day/kind/happy
+3449c3449
+< 0690 September teachers Day/class/busy
+---
+> 0690 September Teacher's Day/class/busy
+3451c3451
+< 0692 November cold/total
+---
+> 0692 November cold/taobao
+3453,3455c3453,3455
+< 0695 away leave/go/always
+< 0696 still away/yet/till
+< 0701 autumn mooncake/August/Family/home
+---
+> 0695 away leave/go/faralways
+> 0696 still awlays/yet/till
+> 0701 mid-autumn moomcake/August/Family/home
+3476c3476
+< 0752 everything nothing/something/do/can
+---
+> 0752 everything nothing/something/do/can 
+3479,3481c3479,3481
+< 0773 front if/in/danger/behind
+< 0774 beside side/board/size/if
+< 0775 between end/two/more/in
+---
+> 0773 front of/in/danger/behind
+> 0774 beside side/board/size/of
+> 0775 between and/two/more/in
+3499c3499
+< 0791 hospital patient/money/sorry/sad
+---
+> 0791 hospital paitent/money/sorry/sad
+3504c3504
+< 0793 get from/work/money/happy
+---
+> 0793 get from/wrok/money/happy
+3523c3523
+< 0837 train shining/traffic/crowd/fast
+---
+> 0837 train trianing/traffic/crowd/fast
+3538c3538
+< 0880 want miss/think/need/top
+---
+> 0880 want miss/think/need/to
+3545c3545
+< 0889 shirt short/sleeve/hot
+---
+> 0889 t-shirt short/sleeve/hot
+3549c3549
+< 0909 just only/merely/alone
+---
+> 0909 just only/merely/alone 
+3564c3564
+< 0944 cartoon Japan/quadratic element/comic/kid
+---
+> 0944 cartoon Japen/quadratic element/comic/kid
+3570c3570
+< 0963 plant animal/former/grass/tree
+---
+> 0963 plant animal/folwer/grass/tree
+3581c3581
+< 0988 bear honeybee/fish/panda/scarf
+---
+> 0988 bear honeybee/flsh/panda/scard
+3586c3586
+< 0992 dog loyal/partner/cat
+---
+> 0992 dog loyal/partner/哈士奇/cat
+3610c3610
+< 1045 carrot rabbit/vitamin/vegetable
+---
+> 1045 carrot rabbit/vitamin/营养/vegetable
+3619c3619
+< 1092 singing China/tennis/football
+---
+> 1092 ping-pong China/tennis/football
+3639,3640c3639,3640
+< 1185 hall tall/food/road/indoor
+< 1189 both if/between/irritable/vexation
+---
+> 1185 hall tall/food/road/indoor/
+> 1189 both of/between/irritable/vexation
+3647c3647
+< 1205 longer long/short/longest
+---
+> 1205 longer long/short/lovingness
+3653c3653
+< 1216 fan clod/hot/condition/atmosphere
+---
+> 1216 fan clod/hot/air-conditioning/atmosphere
+3655c3655
+< 1218 floor top/high/room/bottom
+---
+> 1218 floor top/high/room/betom
+3659,3660c3659,3660
+< 1226 bedroom bed/sleep/aloud/cellar
+< 1229 kitchen food/fruit/vegetables/life
+---
+> 1226 bedroom bed/sleep/parlour/cellar
+> 1229 kitchen food/fruit/vegetables/lnife
+3669c3669
+< 1245 shower bathroom/water/lavatory
+---
+> 1245 shower bethroom/water/lavatory
+3677c3677
+< 1268 map globe/paper/China/band
+---
+> 1268 map globe/paper/China/baidu
+3683c3683
+< 1294 homeless boredom/study/learn/student
+---
+> 1294 have...class boredom/study/learn/student
+3690c3690
+< 1306 mountain hill/high/beautiful/scenery
+---
+> 1306 mountain hill/high/beautiful/scenery 
+3696,3703c3696,3703
+< 1319 puppet timber/doll/people
+< 1321 hide policeman/buff/conceal/store
+< 1322 seek search/precious/deposits/storehouse
+< 1324 find see/discover/discovery/verdict
+< 1328 schedule school/plan/project/formulate
+< 1332 throw cast/fling/toss
+< 1334 naughty rubbish/naughty/impish
+< 1335 feature characteristic/own/proper
+---
+> 1319 puppet timber/doll/people 
+> 1321 hide blindman/buff/conceal/store 
+> 1322 seek search/precious/deposits/storehouse 
+> 1324 find see/discover/discovery/verdict 
+> 1328 schedule school/plan/project/formulate 
+> 1332 throw cast/fling/toss 
+> 1334 naughty cubbish/naughty/rompish 
+> 1335 feature characteristic/own/proper 
+3721c3721
+< 0030 top from/go/do/come
+---
+> 0030 to from/go/do/come
+3724c3724
+< 0034 too also/top/either/very
+---
+> 0034 too also/to/either/very
+3730c3730
+< 0046 welcome/happy/polite/clap
+---
+> 0046 welcome 热烈地/happy/polite/clap
+3732,3733c3732,3733
+< 0049 from top/come/date/back
+< 0057 come top/from/go/in/back
+---
+> 0049 from to/come/date/back
+> 0057 come to/from/go/in/back
+3735c3735
+< 0053 USA America/Harvard/rich
+---
+> 0053 USA America/Harvard/资本主义/rich/霸权主义
+3738c3738
+< 0056 Australia/English/delicious
+---
+> 0056 Australia 考拉/袋鼠/English/delicious
+3746c3746
+< 0072 I an/one/the/single
+---
+> 0072 a an/one/the/single
+3750c3750
+< 0078 let us/together/top/do
+---
+> 0078 let us/together/to/do
+3762c3762
+< 0099 kind all/many/if/type
+---
+> 0099 kind all/many/of/type
+3767c3767
+< 0106 planning make/detailed/secret
+---
+> 0106 planning make/detailed/secret/周密的
+3780c3780
+< 0127 end with/except/between/or
+---
+> 0127 and with/except/between/or
+3785c3785
+< 0138 go top/home/school/come/back
+---
+> 0138 go to/home/school/come/back
+3796c3796
+< 0160 bless pray/wish/hope
+---
+> 0160 bless pray/虔诚的/wish/hope
+3819c3819
+< 0211 an I/the/one/single
+---
+> 0211 an a/the/one/single
+3832c3832
+< 0235 water thrity/juice/milk/soup
+---
+> 0235 water thristy/juice/milk/soup
+3843c3843
+< 0262 dinner delicious/eat/wine/food
+---
+> 0262 dinner decious/eat/wine/food
+3848c3848
+< 0277 soup water/delicious/thrity/spoon
+---
+> 0277 soup water/delicious/thristy/spoon
+3855c3855
+< 0281 noodles chopsticks/soup/wheat/bowl
+---
+> 0281 noodles chopticks/soup/wheat/bowl
+3857c3857
+< 0292 but end/then/also/because
+---
+> 0292 but and/then/also/because
+3859c3859
+< 0296 hamburger breakfast/milk/hold
+---
+> 0296 hamburger breakfast/milk/hot-dog/生菜
+3865c3865
+< 0308 sandwich hamburger/hold/breakfast/hamburger
+---
+> 0308 sandwich hambuger/hot-dog/breakfast/hambuger
+3878c3878
+< 0338 student school/teacher/study/hardworking/college
+---
+> 0338 student school/teacher/study/hard-working/college
+3883c3883
+< 0347 boy clever/brave/hardworking/cute
+---
+> 0347 boy clever/brave/hard-working/cute
+3902c3902
+< 0381 friendly kindly/peaceful/going/polite
+---
+> 0381 friendly kindly/peaceful/easy-going/polite
+3909,3912c3909,3912
+< 0400 football basketball/volleyball/soccer/singing
+< 0402 job work/hardworking/good/money/live
+< 0404 nurse hospital/patient/careful/mild
+< 0405 parents mother/father/grateful/kindly
+---
+> 0400 football basketball/volleyball/soccer/ping-pong
+> 0402 job work/hard-working/good/money/live
+> 0404 nurse hospital/patient/careful/mild 
+> 0405 parents mother/father/grateful/kindly 
+3917c3917
+< 0416 hardworking job/work/study/diligent
+---
+> 0416 hard-working job/work/study/diligent
+3932c3932
+< 0435 worker job/hardworking/money/sweat
+---
+> 0435 worker job/hard-working/money/sweat
+3967c3967
+< 0518 terrible bad/good/interesting/unlucky
+---
+> 0518 terrible bad/good/interesting/unluck
+3970c3970
+< 0523 afraid/strict/worry/brave/shy
+---
+> 0523 afraid /strict/worry/brave/shy
+3979,3980c3979,3980
+< 0547 deep love/river/water/sea
+< 0554 one I/an/single/alone/lonely
+---
+> 0547 deep love/river/water/sea 
+> 0554 one a/an/single/alone/lonely
+4000c4000
+< 0581 only just/but/end/between
+---
+> 0581 only just/but/and/between
+4032c4032
+< 0637 next last/top/close/neighbor
+---
+> 0637 next last/to/close/neighbour
+4036c4036
+< 0642 Monday one/I/week/start
+---
+> 0642 Monday one/a/week/start
+4048c4048
+< 0664 because reason/if/for/result
+---
+> 0664 because reason/of/for/result
+4053c4053
+< 1337 autumn FA/cool/fade
+---
+> 1337 autumn F4ɪ/cool/fade
+4071c4071
+< 0701 autumn moon/festival/reunite/lonely
+---
+> 0701 mid-autumn moon/festival/reunite/lonely
+4073,4074c4073,4074
+< 0707 London England/English/Cambridge/developed
+< 0709 rainy terrible/windy/snow/cold
+---
+> 0707 London England/Endlish/Cambridge/developed
+> 0709 rainy terrible/windy/snow/cold 
+4078c4078
+< 0718 Beijing China/capital/wide/yellow/center
+---
+> 0718 Beijing China/capital/wide/well-known/center
+4093c4093
+< 0755 study student/school/exam/competition/hardworking
+---
+> 0755 study student/school/exam/competition/hard-working
+4095c4095
+< 0773 front behind/next/if/right/left
+---
+> 0773 front behind/next/of/right/left
+4097c4097
+< 0775 between end/center/couple/with
+---
+> 0775 between and/center/couple/with
+4109c4109
+< 0809 then while/when/so/as/end
+---
+> 0809 then while/when/so/as/and
+4143c4143
+< 0855 fast car/security/exciting/danger
+---
+> 0855 fast car/serurity/exciting/danger
+4145c4145
+< 0862 clothes shirt/suit/clean/beautiful
+---
+> 0862 clothes T-shirt/suit/clean/beautiful
+4161c4161
+< 0889 shirt man/necktie/hang/suit
+---
+> 0889 t-shirt man/necktie/hang/suit
+4163c4163
+< 0899 sale supermarket/salesperson/price
+---
+> 0899 sale supermarket/salesperson/促销/price
+4165,4166c4165,4166
+< 0909 just so/as/end/still/then
+< 0901 Sunglasses sunshine/cool/shelter
+---
+> 0909 just so/as/and/still/then
+> 0901 Sunglasses sunshine/cool/shelter/紫外线
+4172c4172
+< 0920 boat/water/fish/fisherman
+---
+> 0920 boat 船桨/water/fish/fisherman
+4185c4185
+< 0959 pick up/out/select/observe
+---
+> 0959 pick up/out/select/observe/
+4189c4189
+< 0970 trip world/scenery/grow/excuse
+---
+> 0970 trip world/scenery/grow/excrise
+4192c4192
+< 0976 hiking exercise/funny/relaxed/scenery
+---
+> 0976 hiking exercise/funny/realxed/scenery
+4214c4214
+< 1032 honey sweet/bee/industrious
+---
+> 1032 honey sweet/bee/花粉/industrious
+4235c4235
+< 1092 singing sport/healthy/interesting/skill
+---
+> 1092 ping-pong sport/healthy/interesting/skill
+4240,4241c4240,4241
+< 1120 playing basketball/volleyball/singing/football
+< 1121 jumping high/energy/excuse/excited
+---
+> 1120 playing basketball/volleyball/ping-pong/football
+> 1121 jumping high/energy/excrise/excited
+4246c4246
+< 1163 gym/healthy/sport/excuse
+---
+> 1163 gym 健美/healthy/sport/excrise
+4249c4249
+< 1170 or end/nor/between/either
+---
+> 1170 or and/nor/between/either
+4252c4252
+< 1179 heavy weight/fat/unhealthy/excuse
+---
+> 1179 heavy weight/fat/unhealthy/excrise
+4256c4256
+< 1189 both end/between/with/together
+---
+> 1189 both and/between/with/together
+4272,4273c4272,4273
+< 1218 floor/wood/flat/smooth
+< 1223 toy children/funny/play/cultivate
+---
+> 1218 floor 水泥/wood/flat/smooth
+> 1223 toy children/funny/play/culitivate
+4300c4300
+< 1294 homeless interesting/meaningful/boring/vivid
+---
+> 1294 have…class interesting/meaningful/boring/vivid
+4302c4302
+< 1297 studies student/knowledge/hardworking/significance
+---
+> 1297 studies student/knowledge/hard-working/significance
+4306c4306
+< 1304 hull/shelter/outside/surface
+---
+> 1304 hull 封装/shelter/outside/surface
+4316c4316
+< 1324 find explore/search/discover
+---
+> 1324 find explore/调查/search/discover
+4338c4338
+< 0030 top go/too/there/here
+---
+> 0030 to go/too/there/here
+4341c4341
+< 0034 too also/top/there/here
+---
+> 0034 too also/to/there/here
+4350c4350
+< 0057 come here/there/go/top
+---
+> 0057 come here/there/go/to
+4363c4363
+< 0072 I one/alone/lonely/single
+---
+> 0072 a one/alone/lonely/single
+4374c4374
+< 0089 happy sad/nice/except/birthday
+---
+> 0089 happy sad/nice/excit/birthday
+4382c4382
+< 0104 early late/ontime/up/down
+---
+> 0104 early late/opsitive/up/down
+4384c4384
+< 0106 planning project/execute/make/finish
+---
+> 0106 planning project/excute/make/finish
+4397c4397
+< 0127 end also/again/but/then
+---
+> 0127 and also/again/but/then
+4402c4402
+< 0138 go come/back/there/here
+---
+> 0138 go come/back/there/here 
+4412c4412
+< 0156 else some/who/also/end
+---
+> 0156 else some/who/also/and
+4432c4432
+< 0202 quietly silently/afraid/dark/stable
+---
+> 0202 quietly silently/afraid/dark/stable 
+4435,4436c4435,4436
+< 0210 interesting play/joke/people/thing
+< 0211 an I/single/one/alone
+---
+> 0210 interesting play/joke/people/thing 
+> 0211 an a/single/one/alone
+4453c4453
+< 0240 ice cold/water/four/solid
+---
+> 0240 ice cold/water/vapour/solid
+4461c4461
+< 0265 fork different/line/two/opinion
+---
+> 0265 fork different/line/two/opinion 
+4469c4469
+< 0278 beef red/color/delicious/food
+---
+> 0278 beef red/color/delicious/food 
+4474c4474
+< 0292 but end/therefore/also/then
+---
+> 0292 but and/therefore/also/then
+4492c4492
+< 0335 about with/end/for/you
+---
+> 0335 about with/and/for/you
+4533c4533
+< 0416 hardworking work/hard/money/make
+---
+> 0416 hard-working work/hard/money/make
+4559,4561c4559,4561
+< 0468 stamp write/letter/top/others
+< 0470 arm body/long/important/part
+< 0471 leg body/bottom/important/part
+---
+> 0468 stamp write/letter/to/others
+> 0470 arm body/long/importment/part
+> 0471 leg body/bottom/importment/part
+4563c4563
+< 0473 head top/body/important/part
+---
+> 0473 head top/body/importment/part
+4566,4567c4566,4567
+< 0476 nose smell/face/body/important
+< 0477 ear both/side/body/important/part
+---
+> 0476 nose smell/face/body/importment
+> 0477 ear both/side/body/importment/part
+4585c4585
+< 0523 afraid if/feel/you/I/me
+---
+> 0523 afraid of/feel/you/I/me
+4595c4595
+< 0554 one two/three/four/I/an
+---
+> 0554 one two/three/four/a/an
+4615c4615
+< 0581 only one/I/an/alone
+---
+> 0581 only one/a/an/alone
+4637c4637
+< 0621 hurry/with/you/me/quick/fast
+---
+> 0621 hurry /with/you/me/quick/fast
+4642c4642
+< 0628 start end/begin/top/work
+---
+> 0628 start end/begin/to/work
+4652c4652
+< 0643 Tuesday/Monday/Wednesday/Thursday/Friday
+---
+> 0643 Tuesday /Monday/Wednesday/Thursday/Friday
+4670c4670
+< 0677 few I/little/day/week/month
+---
+> 0677 few a/little/day/week/month
+4684c4684
+< 0695 away come/go/top/take
+---
+> 0695 away come/go/to/take
+4686c4686
+< 0701 autumn moon/cake/festival/family
+---
+> 0701 mid-autumn moon/cake/festival/family
+4710c4710
+< 0773 front end/in/if/you
+---
+> 0773 front end/in/of/you
+4712,4713c4712,4713
+< 0775 between you/me/end/both
+< 0776 behind you/me/front/end
+---
+> 0775 between you/me/and/both
+> 0776 behind you/me/front/and
+4745c4745
+< 0839 light sun/shine/yellow/important
+---
+> 0839 light sun/shine/yellow/importment
+4756c4756
+< 0849 down up/left/right/direction
+---
+> 0849 down up/left/right/direction 
+4769c4769
+< 0880 want top/you/me/I/something
+---
+> 0880 want to/you/me/I/something
+4776c4776
+< 0889 shirt shirt/skirt/jacket/coat
+---
+> 0889 t-shirt shirt/skirt/jacket/coat
+4794c4794
+< 0943 draw picture/art/phone/color
+---
+> 0943 draw picture/art/phont/color
+4850,4851c4850,4851
+< 1092 singing ball/sports/football/basketball
+< 1098 need top/you/me/us
+---
+> 1092 ping-pong ball/sports/football/basketball
+> 1098 need to/you/me/us
+4862c4862
+< 1164 either neither/also/end/but
+---
+> 1164 either neither/also/and/but
+4864c4864
+< 1170 or end/also/but/none
+---
+> 1170 or and/also/but/none
+4871c4871
+< 1189 both end/two/but/also
+---
+> 1189 both and/two/but/also
+4890c4890
+< 1225 key important/useful/use/method
+---
+> 1225 key importment/useful/use/method
+4904,4905c4904,4905
+< 1253 photo take/I/picture/memory
+< 1259 ruler eraser/study/pencil/class
+---
+> 1253 photo take/a/picture/memory
+> 1259 ruler erasor/study/pencil/class
+4915c4915
+< 1294 homeless math/English/Chinese/physics
+---
+> 1294 have…class math/English/Chinese/physics
+4920c4920
+< 1303 forest greet/tree/plant/air
+---
+> 1303 forest greem/tree/plant/air
+4945c4945
+< 1338 is am/are/top/from
+---
+> 1338 is am/are/to/from
+4953c4953
+< 0030 top on/in/from/below
+---
+> 0030 to on/in/from/below
+4955c4955
+< 0032 meet see/nice/top/you
+---
+> 0032 meet see/nice/to/you
+4968c4968
+< 0054 Canada maple/cold
+---
+> 0054 Canada maple/cold/地方大
+4978c4978
+< 0072 I an/one/apple
+---
+> 0072 a an/one/apple
+4994c4994
+< 0099 kind if/generous/good/species
+---
+> 0099 kind of/generous/good/species
+5000c5000
+< 0108 have has/had/apple/haven
+---
+> 0108 have has/had/apple/haven't
+5002c5002
+< 0111 not no/want/never
+---
+> 0111 not no/can't/never
+5008c5008
+< 0120 way top/path/method
+---
+> 0120 way to/path/method
+5012c5012
+< 0127 end or/but/with
+---
+> 0127 and or/but/with
+5022c5022
+< 0149 work salary/hardworking/ontime
+---
+> 0149 work salary/hard-working/full-time
+5044,5045c5044,5045
+< 0197 dear darling/lover/with
+< 0199 Christmas New years Day/Easter/festival
+---
+> 0197 dear darling/lover/wifh
+> 0199 Christmas New Year's Day/Easter/festival
+5047c5047
+< 0202 quietly silent/nose/lonely
+---
+> 0202 quietly slient/nosiy/lonely
+5051c5051
+< 0211 an I/the/some
+---
+> 0211 an a/the/some
+5054c5054
+< 0218 share generous/unselfish
+---
+> 0218 share generous/unselfish/
+5063c5063
+< 0233 milk cow/album/breakfast
+---
+> 0233 milk cow/calcuim/breakfast
+5073c5073
+< 0258 candy sweet/colorful/delicious
+---
+> 0258 candy sweet/colorful/deliciou
+5103c5103
+< 0323 fresh new/green/meat
+---
+> 0323 fresh new/green/meat 
+5115c5115
+< 0347 boy girl/children/mad
+---
+> 0347 boy girl/children/madm
+5117c5117
+< 0349 sister brothers/mother/brother
+---
+> 0349 sister brothre/mother/brother
+5138c5138
+< 0386 quiet silent/nose/lonely
+---
+> 0386 quiet slient/nosiy/lonely
+5142,5143c5142,5143
+< 0402 job career/teacher/nurse/policeman
+< 0404 nurse doctor/pain/medicine/hospital
+---
+> 0402 job career/teatcher/nurse/policeman
+> 0404 nurse docter/pain/medicine/hospital
+5149,5150c5149,5150
+< 0416 hardworking tired/achievement/insist
+< 0418 strict fierce/unfree/controversial
+---
+> 0416 hard-working tired/achievement/insist
+> 0418 strict fierece/unfree/controversial
+5180c5180
+< 0474 body leg/arm/head
+---
+> 0474 body leg/arm/head/
+5201c5201
+< 0521 sleepy tired/bed/comfortable
+---
+> 0521 sleepy tierd/bed/comfortable
+5232c5232
+< 0581 only an/one/I
+---
+> 0581 only an/one/a
+5302,5303c5302,5303
+< 0701 autumn Chrismas/Easter/New Year
+< 0706 weather rainy/cloudy/sun
+---
+> 0701 mid-autumn Chrismas/Easter/New Year
+> 0706 weather rainny/clody/sun
+5322c5322
+< 0750 eraser pen/pencil/ruler
+---
+> 0750 eraser pen/pencile/ruler
+5331c5331
+< 0779 ball basketball/circle/interesing
+---
+> 0779 ball basketball/circle/interesing 
+5356c5356
+< 0820 university college/research/science
+---
+> 0820 university college/researsch/science
+5371c5371
+< 0848 slow quick/speed/science
+---
+> 0848 slow quick/speed/effciency
+5381c5381
+< 0868 shirt shirt/cool/comfort
+---
+> 0868 shirt t-shirt/cool/comfort
+5385c5385
+< 0880 want top/wanna/would
+---
+> 0880 want to/wanna/would
+5387c5387
+< 0881 coat shirt/pants/jacket
+---
+> 0881 coat shirt/pants/jackct
+5392c5392
+< 0889 shirt shirt/cool/comfort
+---
+> 0889 t-shirt shirt/cool/comfort
+5454,5457c5454,5457
+< 1041 tomato potato/vegetable/onion
+< 1043 bean potato/vegetable/onion
+< 1044 potato tomato/vegetable/onion
+< 1045 carrot potato/vegetable/onion
+---
+> 1041 tomato potato/vegtable/onion
+> 1043 bean potato/vegtable/onion
+> 1044 potato tomato/vegtable/onion
+> 1045 carrot potato/vegtable/onion
+5466c5466
+< 1092 singing football/basketball/badminton
+---
+> 1092 ping-pong football/basketball/badminton
+5468c5468
+< 1102 visit museum/gallery/school
+---
+> 1102 visit museum/gallary/school
+5480c5480
+< 1170 or end/but/nor
+---
+> 1170 or and/but/nor
+5487c5487
+< 1189 both end/all/among
+---
+> 1189 both and/all/among
+5519c5519
+< 1252 clock time/alarm/unable
+---
+> 1252 clock time/alarm/unvisble
+5531,5532c5531,5532
+< 1294 homeless student/teacher/learn
+< 1296 keep going/insist
+---
+> 1294 have...class student/teacher/learn
+> 1296 keep going/insist/
+5539c5539
+< 1311 village farmer/harvest/simple
+---
+> 1311 village farmar/harvest/simple
+5551c5551
+< 1335 feature distribute/sample/concrete
+---
+> 1335 feature atrribute/sample/concrete
+5569,5570c5569,5570
+< 0030 top go/toward/aim/point/back
+< 0031 nice top/meet/you/good
+---
+> 0030 to go/toward/aim/point/back
+> 0031 nice to/meet/you/good
+5572,5573c5572,5573
+< 0034 too also/top/me/zoo
+< 0037 how top/do/that/what
+---
+> 0034 too also/to/me/zoo
+> 0037 how to/do/that/what
+5580c5580
+< 0049 from top/back/come/where
+---
+> 0049 from to/back/come/where
+5594c5594
+< 0072 I an/two/double/triple
+---
+> 0072 a an/two/double/triple
+5615c5615
+< 0106 planning plan/execute/finish/discipline
+---
+> 0106 planning plan/execute/finish/self-discipline
+5625,5627c5625,5627
+< 0123 course if/lesson/class/excuse
+< 0125 beautiful ugly/handsome/elegant/princess
+< 0127 end connect/but/or/equal
+---
+> 0123 course of/lesson/class/excuse
+> 0125 beautiful ugly/handsome/elegent/princess
+> 0127 and connect/but/or/equal
+5632c5632
+< 0138 go top/from/goes/went/shopping
+---
+> 0138 go to/from/goes/went/shopping
+5635c5635
+< 0145 more less/greater/than/end
+---
+> 0145 more less/greater/than/and
+5666c5666
+< 0211 an I/apple/two/single
+---
+> 0211 an a/apple/two/single
+5696c5696
+< 0267 chopsticks Chinese/chopstick/double/finger
+---
+> 0267 chopsticks Chinese/crabstick/double/finger
+5704c5704
+< 0292 but end/so/or/then
+---
+> 0292 but and/so/or/then
+5737c5737
+< 0351 grandmother granddaughter/grandfather/grandma/mother
+---
+> 0351 grandmother granddaughter/gandfather/grandma/mother
+5749c5749
+< 0381 friendly friendly/indifferent/alone/friend
+---
+> 0381 friendly unfrindly/indifferent/alone/friend
+5758c5758
+< 0404 nurse accident/doctor/hospital/girl
+---
+> 0404 nurse attandent/doctor/hospital/girl
+5764c5764
+< 0416 hardworking work/study/lazy/student
+---
+> 0416 hard-working work/study/lazy/student
+5771c5771
+< 0425 shy girl/cute/face/whose
+---
+> 0425 shy girl/cute/face/mimose
+5775c5775
+< 0434 doctor hospital/nurse/knowledgeable/uniform
+---
+> 0434 doctor hospital/nurse/knowledgeble/uniform
+5779c5779
+< 0435 worker factory/boss/hard/labor
+---
+> 0435 worker factory/boss/hard/labour
+5784c5784
+< 0442 coach aloud/TV/family/cost
+---
+> 0442 coach parlour/TV/family/cosy
+5788c5788
+< 0463 wave shake/hand/sea/sounding
+---
+> 0463 wave shake/hand/sea/spoondrift
+5803c5803
+< 0496 over end/many/go/run
+---
+> 0496 over and/many/go/run
+5813c5813
+< 0510 flower four/colorful/dew/leaf
+---
+> 0510 flower odour/colorful/dew/leaf
+5827,5829c5827,5829
+< 0554 one first/two/alpha/I
+< 0555 two both/second/chopsticks/best
+< 0556 three double/hamburger/traffic/flagstaff
+---
+> 0554 one first/two/alpha/a
+> 0555 two both/second/chopsticks/belta
+> 0556 three double/hackbuteer/traffic/flagstaff
+5843c5843
+< 0576 seventeen seven/seventy/number/seventeen
+---
+> 0576 seventeen senven/senventy/number/senventeenth
+5918c5918
+< 0701 autumn moon/newer/reunite/family
+---
+> 0701 mid-autumn moon/new-year/reunite/family
+5933c5933
+< 0737 near close/intimate/neighbor/beside
+---
+> 0737 near close/intimate/neighbour/beside
+5936c5936
+< 0745 put let/up/press/make
+---
+> 0745 put let/up/press/make 
+5942c5942
+< 0773 front in/if/back/beside
+---
+> 0773 front in/of/back/beside
+5950c5950
+< 0786 science scientist/nature/university/colleage
+---
+> 0786 science scientist/nature/universerty/colleage
+5956c5956
+< 0809 then end/when/after/wait
+---
+> 0809 then and/when/after/wait
+6001c6001
+< 0880 want hope/you/top/need
+---
+> 0880 want hope/you/to/need
+6008c6008
+< 0889 shirt clothes/short/white/simple
+---
+> 0889 t-shirt clothes/short/white/simple
+6020c6020
+< 0923 row in/line/I/single
+---
+> 0923 row in/line/a/single
+6024c6024
+< 0941 sing song/music/singer/voice/sound
+---
+> 0941 sing song/music/singer/voive/sound
+6036c6036
+< 0970 trip travel/take/go/relax
+---
+> 0970 trip travel/take/go/releax
+6072c6072
+< 1044 potato tomato/vegetable/staple/starchy
+---
+> 1044 potato tomato/vagetable/staple/starchy
+6082c6082
+< 1092 singing play/Chinese/ball/bat
+---
+> 1092 ping-pong play/Chinese/ball/bat
+6085c6085
+< 1118 drinking drink/drinks/coffee/milk
+---
+> 1118 drinking drink/drinked/coffee/milk
+6096c6096
+< 1170 or end/so/but/still
+---
+> 1170 or and/so/but/still
+6102c6102
+< 1185 hall aloud/kitchen/room/house
+---
+> 1185 hall parlour/kitchen/room/house
+6129,6130c6129,6130
+< 1234 sofa TV/aloud/soft/cozy
+< 1235 fridge ice/icy/microwave/condition
+---
+> 1234 sofa TV/parlour/soft/cozy
+> 1235 fridge ice/icy/microwave/air-conditioner
+6147c6147
+< 1294 homeless Chinese/math/English/physics
+---
+> 1294 have…class Chinese/math/English/physics
+6149c6149
+< 1297 studies study/paper/since/nature
+---
+> 1297 studies study/paper/sience/nature
+6167c6167
+< 1335 feature character/temperament/nature/inherent
+---
+> 1335 feature character/temperament/nature/inherent 

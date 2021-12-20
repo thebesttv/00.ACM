@@ -1,0 +1,11 @@
+#!/usr/bin/env python
+
+导入CYaRon
+  from cyaron import * #
+
+输入输出IO
+  IO("in","out");
+  IO("in");
+  IO(file_prefix="test");
+  IO(file_prefix="test","data_id=1);
+  IO();  #生成临时.in,.out文件

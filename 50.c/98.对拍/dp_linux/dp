@@ -1,0 +1,16 @@
+g++ ./test.c -o ./dp.test.out
+g++ ./ori.c -o ./dp.ori.out
+g++ ./input.c -o ./dp.input.out
+
+while true; do
+./dp.input.out > in
+./dp.ori.out < in > dp.out.ori
+./dp.test.out < in > dp.out.test
+if diff -w dp.out.ori dp.out.test; then
+echo AC
+else
+echo WA
+read p
+fi
+sleep 1
+done

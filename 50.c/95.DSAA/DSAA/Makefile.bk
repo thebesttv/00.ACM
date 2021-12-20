@@ -1,0 +1,17 @@
+DSAA.out: Array.o Applications.o SingleLinkedList.o DoubleLinkedList.o
+	g++ main.cpp -o DSAA.out Array.o Applications.o SingleLinkedList.o DoubleLinkedList.o
+
+Applications.o: Applications.h Applications.cpp
+	g++ -c Applications.cpp -o Applications.o
+
+Array.o: Array.h Array.cpp
+	g++ -c Array.cpp -o Array.o
+
+SingleLinkedList.o: SingleLinkedList.h SingleLinkedList.cpp
+	g++ -c SingleLinkedList.cpp -o SingleLinkedList.o
+
+DoubleLinkedList.o: DoubleLinkedList.h DoubleLinkedList.cpp
+	g++ -c DoubleLinkedList.cpp -o DoubleLinkedList.o
+
+clean:
+	rm *.o DSAA.out

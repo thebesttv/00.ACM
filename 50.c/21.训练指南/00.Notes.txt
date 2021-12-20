@@ -1,0 +1,4 @@
+优先队列
+priority_queue<int> Q;
+清空：
+  while(!Q.empty()) Q.pop();

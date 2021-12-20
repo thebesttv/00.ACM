@@ -1,0 +1,16 @@
+Expand the queue with fewer nodes every time.
+There're 181439 + 1 available patterns, the +1 is for pattern 123456780.
+The average length of queue0 is 1696.191927, of queue1 is 1696.291646.
+The longest queue is below, taking up 20529 nodes intotal
+  for pattern: 8 6 7 2 5 4 0 3 1, tail0:10262, tail1:10267, took time: 0.022324
+  ururdldrullurrdldluurddluurdrd
+
+Expand the queue using switch, aka: one by one.
+There're 181439 + 1 available patterns, the +1 is for pattern 123456780.
+The average length of queue0 is 1694.999697, of queue1 is 1695.733018.
+The longest queue is below, taking up 20524 nodes intotal.
+  for pattern: 8 6 7 2 5 4 0 3 1, tail0:10262, tail1:10262, took time: 0.021714
+  ururdldrullurrdldluurddluurdrd
+
+From the statistics, we can see there's little differencd between the two ways of expanding queues.
+We can also see that number of the patterns which are solvable is just half of 9!.
